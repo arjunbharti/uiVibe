@@ -1,7 +1,7 @@
 
 # 💫 uiVibe
 
-uiVibe is a component library that gives you the power to build more clean, nice and amazing UI quickly. Build faster, Build with uiVibe! dizzy
+uiVibe is a component library that gives you the power to build more clean, nice and amazing UI quickly. Build faster, Build with uiVibe! :dizzy:
 
 
 

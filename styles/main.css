@@ -1,0 +1,25 @@
+/* external imports */
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500&display=swap";
+
+/* component imports */
+@import "./reset.css";
+
+
+/* project initials */
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--default-font-size);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}

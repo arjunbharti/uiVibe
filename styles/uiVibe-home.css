@@ -1,0 +1,123 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 1.5rem 2.5rem;
+    max-height: 3.75rem;
+    width: 100%;
+    align-items: center;
+}
+
+.library-name{
+    font-weight: bolder;
+    letter-spacing: 4px;
+    font-size: xx-large;
+    font-family: cursive;
+    color: rgb(46, 80, 231);
+    text-shadow: purple 4px 4px 10px;
+}
+
+.github-link{
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+    min-width: 6.25rem;
+    align-items: center;
+}
+
+.github-icon{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.heading-items{
+    padding-top: 10rem;
+    max-width: 40rem;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.heading{
+    width: 100%;
+    height: 3.125rem;
+}
+
+.main-heading{
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 4.5rem;
+}
+
+.intro-text{
+    padding-top: 0.5rem;
+    line-height: 1.5rem;
+    font-weight: 350;
+    font-size: large;
+}
+
+.action-buttons{
+    padding-top: 12rem;
+}
+
+.action-btn{
+    min-width: 10rem;
+    margin-right: 0.75rem;
+    min-height: 3rem;
+    border: 1px solid purple;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.docs-btn{
+    background-color: rgb(46, 80, 231);
+}
+
+#docs-btn-text{
+    color: white;
+    font-size: large;
+}
+
+#github-btn-text{
+    color: black;
+    font-size: large;
+}
+
+.docs-btn:hover{
+    background-color: rgb(21, 50, 180);
+}
+
+.github-btn:hover{
+    background-color: rgb(236, 233, 233);
+}
+
+/* media query for different screens */
+
+@media screen and (max-width: 750px){
+    .heading-items{
+        max-width: 30rem;
+    }
+
+    .action-buttons{
+        padding-top: 17rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .heading-items{
+        max-width: 20rem;
+    }
+
+    .main-heading{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .action-buttons{
+        display: flex;
+    }
+}

@@ -10,7 +10,8 @@ uiVibe is a component library that gives you the power to build more clean, nice
 
 ![label](https://img.shields.io/badge/label-open--source-blue)
 
-![deployed-on](https://img.shields.io/badge/deployed--on-Netlify-brightgreen)
+#### Deployment Status Check: <br />
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2954fcfe-b27a-4db5-aac8-5213a7846e26/deploy-status)](https://app.netlify.com/sites/uivibe/deploys)
 
 
 ## Run locally:

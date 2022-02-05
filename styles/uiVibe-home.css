@@ -14,8 +14,8 @@
     letter-spacing: 4px;
     font-size: xx-large;
     font-family: cursive;
-    color: rgb(46, 80, 231);
-    text-shadow: purple 4px 4px 10px;
+    color: var(--primary-color);
+    text-shadow: var(--purple) 4px 4px 10px;
 }
 
 .github-link{
@@ -69,31 +69,31 @@
     min-width: 10rem;
     margin-right: 0.75rem;
     min-height: 3rem;
-    border: 1px solid purple;
-    background-color: white;
+    border: 1px solid var(--purple);
+    background-color: var(--white);
     border-radius: 4px;
 }
 
 .docs-btn{
-    background-color: rgb(46, 80, 231);
+    background-color: var(--primary-color);
 }
 
 #docs-btn-text{
-    color: white;
+    color: var(--white);
     font-size: large;
 }
 
 #github-btn-text{
-    color: black;
+    color: var(--black);
     font-size: large;
 }
 
 .docs-btn:hover{
-    background-color: rgb(21, 50, 180);
+    background-color: var(--primary-button-hover);
 }
-
+    
 .github-btn:hover{
-    background-color: rgb(236, 233, 233);
+    background-color: var(--secondary-button-hover);
 }
 
 /* media query for different screens */

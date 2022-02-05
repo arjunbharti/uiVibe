@@ -19,7 +19,6 @@
     <title>uiVibe | Home</title>
 </head>
 <body>
-
     <nav class="navbar">
         <a class="library-name" href="../index.html">uiVibe</a>
         <div class="github-link">
@@ -29,7 +28,6 @@
             </a>
         </div>
     </nav>
-
     <div class="main-container">
         <div class="sidebar-wrapper">
         <aside class="sidebar">
@@ -86,6 +84,7 @@
                 <p class="content-sub_heading">Installation Guide</p>
                 <p>Copy the below mentioned stylesheet link in your html file in the head tag to load uiVibe to your project.</p>
                 <div class="code-snippet">
+                    (Will be modified at the end. Please ignore for now)
                     <pre id="myInput">
                         <code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;#&quot; /&gt;
                         </code>
@@ -93,6 +92,7 @@
                 </div>
                 <p>To import the styles in css file, use the code snippet given below</p>
                 <div class="code-snippet">
+                    (Will be modified at the end. Please ignore for now)
                     <pre id="myInput">
                         <code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;#&quot; /&gt;
                         </code>
@@ -107,6 +107,155 @@
                     <p class="reference-item">3. Carbon - for code snippets</p>
             </div>
             <hr>
+
+            <!-- avatar component-->
+            <div class="avatar-container">
+                <p class="content-sub_heading">Avatar</p>
+                <p>The Avatar component can be used to represent a user's display picture, initials, etc</p>
+                <p class="content-sub_heading-sm">Image Avatar</p>
+                <p class="sub-heading-description">Image avatar can be used with three different sizes as per your use-case. The three different sizes are normal "avatar", smaller "avatar-sm" and larger "avatar-lg"</p>
+                <div class="display-avatar">
+                    <img 
+                        class="avatar-sm"
+                        src="../assets/avatar.png" 
+                        alt="avatar">
+                    <img 
+                        class="avatar"
+                        src="../assets/avatar.png" 
+                        alt="avatar">
+                    <img 
+                        class="avatar-lg"
+                        src="../assets/avatar.png" 
+                        alt="avatar">           
+                </div>
+            </div>
+            <div class="code-snippet">
+                Use class name as "avatar" in your "img" tag as mentioned below:
+                <pre id="myInput">
+                    <code class="language-html">&lt;img class=&quot;avatar&quot; src=&quot;img-url-xyz&quot; alt=&quot;avatar&quot; /&gt;
+                        
+&lt;img class=&quot;avatar avatar-sm&quot; src=&quot;img-url-xyz&quot; alt=&quot;avatar&quot; /&gt;
+                        
+&lt;img class=&quot;avatar avatar-lg&quot; src=&quot;img-url-xyz&quot; alt=&quot;avatar&quot; /&gt;
+                    </code>
+                </pre>
+            </div>
+            <p class="content-sub_heading-sm">Letter Avatar</p>
+            <p class="sub-heading-description">Letter avatar can be created using avatar avatar-text with three different sizes in the div tag.</p>
+            <div class="display-avatar">
+                <div class="avatar avatar-text avatar-sm">AB</div>
+                <div class="avatar avatar-text ">AB</div>
+                <div class="avatar avatar-text avatar-lg">AB</div>
+            </div>
+            <div class="code-snippet">
+                Use class name as "avatar-text" in your "div" tag as mentioned below:
+                <pre id="myInput">
+                    <code class="language-html">&lt;div class=&quot;avatar avatar-text avatar-sm&quot;&gt;AB&lt;/div&gt;
+
+&lt;div class=&quot;avatar avatar-text &quot;&gt;AB&lt;/div&gt;
+                        
+&lt;div class=&quot;avatar avatar-text avatar-lg&quot;&gt;AB&lt;/div&gt;
+                    </code>
+                </pre>
+            </div>
+            <hr>
+
+            <!-- badge component -->
+            <div class="badge-container">
+                <p class="content-sub_heading">Badge</p>
+                <p class="sub-heading-description">A badge can be generally used for user verification status, visibility, notifications, etc.</p> 
+                <p class="content-sub_heading-sm">Badge on Avatars</p>
+                <p class="sub-heading-description">You can change the color of these badges by writing "badge-red", "badge-blue", "badge-green" and "badge-pink"</p>
+                <div class="display-badge">
+                    <div class="badge-item">
+                        <img 
+                            class="avatar"
+                            src="../assets/avatar.png" 
+                            alt="avatar"
+                        />
+                        <span class="badge"></span>
+                    </div>
+                    <div class="badge-item">
+                        <img 
+                            class="avatar"
+                            src="../assets/avatar.png" 
+                            alt="avatar"
+                        />
+                        <span class="badge badge-green"></span>
+                    </div>
+                    <div class="badge-item">
+                        <img 
+                            class="avatar"
+                            src="../assets/avatar.png" 
+                            alt="avatar"
+                        />
+                        <span class="badge badge-red"></span>
+                    </div>
+                    <div class="badge-item">
+                        <img 
+                            class="avatar"
+                            src="../assets/avatar.png" 
+                            alt="avatar"
+                        />
+                        <span class="badge badge-pink"></span>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    Use different class names for different badge colors as mentioned below:
+                <pre id="myInput">
+                    <code class="language-html">&lt;div class=&quot;badge-item&quot;&gt;
+        &lt;img class=&quot;avatar&quot; src=&quot;../assets/avatar.png&quot; alt=&quot;avatar&quot; /&gt;
+        &lt;span class=&quot;badge badge-red&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+                    
+&lt;div class=&quot;badge-item&quot;&gt;
+        &lt;img class=&quot;avatar&quot; src=&quot;../assets/avatar.png&quot; alt=&quot;avatar&quot; /&gt;
+        &lt;span class=&quot;badge badge-green&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+                    
+&lt;div class=&quot;badge-item&quot;&gt;
+        &lt;img class=&quot;avatar&quot; src=&quot;../assets/avatar.png&quot; alt=&quot;avatar&quot; /&gt;
+        &lt;span class=&quot;badge badge-blue&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+                    
+&lt;div class=&quot;badge-item&quot;&gt;
+        &lt;img class=&quot;avatar&quot; src=&quot;../assets/avatar.png&quot; alt=&quot;avatar&quot; /&gt;
+        &lt;span class=&quot;badge badge-pink&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+                    </code>
+                </pre>
+                </div>
+                <p class="content-sub_heading-sm">Badge on Icons</p>
+                <p class="sub-heading-description">Badges on Icons have so many different use-cases like using icons in messages, notifications, etc. Given below badge can be used in notification icons, calender and message icons.</p>
+                <div class="display-badge">
+                    <div class="badge-item">
+                        <i class="far fa-envelope fa-2x"></i>
+                        <span class="badge-icon">99+</span>
+                    </div>
+                    <div class="badge-item">
+                        <i class="far fa-bell fa-2x"></i>
+                        <span class="badge-icon">3</span>
+                    </div>
+                    <div class="badge-item">
+                        <i class="far fa-calendar fa-2x"></i>
+                        <span class="badge-icon">12</span>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    Use class name as "badge-icon" in your "span" tag as mentioned below:
+                    <pre id="myInput">
+                        <code class="language-html">&lt;div class=&quot;badge-item&quot;&gt;
+                            
+        &lt;i class=&quot;far fa-calendar fa-2x&quot;&gt;&lt;/i&gt;
+                            
+        &lt;span class=&quot;badge-icon&quot;&gt;12&lt;/span&gt;
+                        
+&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+                <hr>
+            </div>
         </div>
     </div>
     

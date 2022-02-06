@@ -4,6 +4,8 @@
 /* component imports */
 @import "./reset.css";
 @import "./utils.css";
+@import "../components/avatar.css";
+@import "../components/badge.css";
 
 /* project initials */
 

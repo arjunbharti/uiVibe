@@ -78,8 +78,19 @@
     font-weight: 500;
 }
 
+.content-sub_heading-sm{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: large;
+    font-weight: 450;
+}
+
+.sub-heading-description{
+    line-height: 2rem;
+}
+
 .code-snippet{
-    margin-top: 1rem;
+    margin-top: 3rem;
     align-items: center;
     max-width: 100%;
 }

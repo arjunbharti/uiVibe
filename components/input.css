@@ -1,0 +1,26 @@
+.display-input{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.input{
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.input-label{
+    margin: 1rem;
+}
+
+.input-label-success{
+    border: 2px solid var(--success);
+}
+
+.input-label-warning{
+    border: 2px solid var(--warning);
+}
+
+.input-label-error{
+    border: 2px solid var(--danger);
+}

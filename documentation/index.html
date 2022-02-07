@@ -256,7 +256,177 @@
                 </div>
                 <hr>
             </div>
-        </div>
+
+            <!-- alert component -->
+            <div class="alert-container">
+                <p class="content-sub_heading">Alert</p>
+                <p class="sub-heading-description">Alerts are mostly used to communicate a state that affects a system, feature or a page!</p>
+                <p class="sub-heading-description">You can view the four different types of alert messages given below:</p>
+                <div class="display-alert">
+                    <div class="alert-item alert-success">
+                        <i class="alert-icon fa fa-check-circle"></i>
+                        <p>Application saved successfully!</p>
+                    </div>
+                </div>
+                <div class="display-alert">
+                    <div class="alert-item alert-info">
+                        <i class="alert-icon fa fa-info-circle"></i>
+                        <p>This is an info alert</p>
+                    </div>
+                </div>
+                <div class="display-alert">
+                    <div class="alert-item alert-warning">
+                        <i class="alert-icon fa fa-exclamation-triangle"></i>
+                        <p>This is a warning alert</p>
+                    </div>
+                </div>
+                <div class="display-alert">
+                    <div class="alert-item alert-error">
+                        <i class="alert-icon fa fa-exclamation-circle"></i>
+                        <p>This is an error alert</p>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    Use class name as "alert-item" and pick the another class name for the type of alert you want to use as mentioned below:
+                    <pre id="myInput">
+                        <code class="language-html">&lt;div class=&quot;alert-item alert-success&quot;&gt;
+        &lt;i class=&quot;alert-icon fa fa-check-circle&quot;&gt;&lt;/i&gt;
+        &lt;p&gt;Application saved successfully!&lt;/p&gt;
+&lt;/div&gt;
+                        
+&lt;div class=&quot;alert-item alert-info&quot;&gt;
+        &lt;i class=&quot;alert-icon fa fa-check-circle&quot;&gt;&lt;/i&gt;
+        &lt;p&gt;This is an info message&lt;/p&gt;
+&lt;/div&gt;
+                        
+&lt;div class=&quot;alert-item alert-warning&quot;&gt;
+        &lt;i class=&quot;alert-icon fa fa-check-circle&quot;&gt;&lt;/i&gt;
+        &lt;p&gt;This is a warning message&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert-item alert-error&quot;&gt;
+        &lt;i class=&quot;alert-icon fa fa-check-circle&quot;&gt;&lt;/i&gt;
+        &lt;p&gt;This is an error message&lt;/p&gt;
+&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+            </div>
+            <hr>
+
+            <!-- button component -->
+            <div class="button-container">
+                <p class="content-sub_heading">Button</p>
+                <p class="sub-heading-description">The Button component is used to trigger different actions or events, such as submitting a form, performing delete operation, cancelling an action, etc. </p>
+                <p class="content-sub_heading-sm">Standard Buttons</p>
+                <p class="sub-heading-description">To use primary and secondary buttons, write "btn-primary" and "btn-secondary" respectively in the class name. For curved shape button, use "btn-curved" in the class name.</p>
+                <div class="display-button">
+                    <div>
+                        <button class="btn btn-primary">Primary</button>
+                        <button class="btn btn-primary btn-curved">Primary</button>
+                        <button class="btn btn-primary" disabled>Disabled</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-secondary">Secondary</button>
+                        <button class="btn btn-secondary btn-curved">Secondary</button>
+                        <button class="btn btn-secondary" disabled>Disabled</button>
+                    </div>
+                </div> 
+                <div class="code-snippet">
+                    Use the code snippets mentioned below:
+                    <pre id="myInput">
+                        <code class="language-html">&lt;button class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+                            
+&lt;button class=&quot;btn btn-primary btn-curved&quot;&gt;Primary&lt;/button&gt;
+                            
+&lt;button class=&quot;btn btn-primary&quot; disabled&gt;Disabled&lt;/button&gt;
+                            
+&lt;button class=&quot;btn btn-secondary&quot;&gt;Secondary&lt;/button&gt;
+                            
+&lt;button class=&quot;btn btn-secondary btn-curved&quot;&gt;Secondary&lt;/button&gt;
+                            
+&lt;button class=&quot;btn btn-secondary&quot; disabled&gt;Disabled&lt;/button&gt;
+                        </code>
+                    </pre>
+                </div>
+                <p class="content-sub_heading-sm">Link Buttons</p>
+                <p class="sub-heading-description">To use link buttons, write "btn-link" in the class name.</p>
+                <div class="display-button">
+                    <a href="#" class="btn btn-link">Link Button</a>
+                    <a href="#" class="btn btn-curved btn-link">Link Button</a>
+                </div>
+                <div class="code-snippet">
+                    Use the code snippets mentioned below:
+                    <pre id="myInput">
+                        <code class="language-html">&lt;a href=&quot;#&quot; class=&quot;btn btn-link&quot;&gt;Link Button&lt;/a&gt;
+                            
+&lt;a href=&quot;#&quot; class=&quot;btn btn-curved btn-link&quot;&gt;Link Button&lt;/a&gt;
+                        </code> 
+                    </pre>
+                </div>
+                <p class="content-sub_heading-sm">Icon Buttons</p>
+                <p class="sub-heading-description">To use icon buttons, use "btn-icon" class name in the button tag</p>
+                <div class="display-button">
+                    <button class="btn btn-icon">
+                        <i class="fa fa-bookmark"></i>
+                    </button>
+                    <button class="btn btn-icon">
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                    <button class="btn btn-icon">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                </div>
+                <div class="code-snippet">
+                    Use the code snippets mentioned below:
+                    <pre id="myInput">
+                        <code class="language-html">&lt;button class=&quot;btn btn-icon&quot;&gt;                   
+        &lt;i class=&quot;fa fa-bookmark&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+
+&lt;button class=&quot;btn btn-icon&quot;&gt;                    
+        &lt;i class=&quot;fa fa-shopping-cart&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+        
+&lt;button class=&quot;btn btn-icon&quot;&gt;
+        &lt;i class=&quot;fa fa-trash&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+                        </code> 
+                    </pre>
+                </div>
+                <p class="content-sub_heading-sm">Floating Action Buttons</p>
+                <p class="sub-heading-description">To use floating action buttons, use "btn-floating" in the class name of your anchor tag</p>
+                <div class="display-button">
+                    <a href="#" class="btn btn-floating">
+                        <i class="fa fa-phone"></i>
+                    </a>
+                    <a href="#" class="btn btn-floating">
+                        <i class="fa fa-plus"></i>
+                    </a>
+                    <a href="#" class="btn btn-floating">
+                        <i class="fa fa-stop"></i>
+                    </a>
+                </div>
+                <div class="code-snippet">
+                    Use the code snippets mentioned below:
+                    <pre id="myInput">
+                        <code class="language-html">&lt;a href=&quot;#&quot; class=&quot;btn btn-floating&quot;&gt;
+        &lt;i class=&quot;fa fa-phone&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;
+                        
+&lt;a href=&quot;#&quot; class=&quot;btn btn-floating&quot;&gt;
+        &lt;i class=&quot;fa fa-plus&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;
+                        
+&lt;a href=&quot;#&quot; class=&quot;btn btn-floating&quot;&gt;
+        &lt;i class=&quot;fa fa-stop&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;
+                        </code> 
+                    </pre>
+                </div>
+                <hr>
+            </div>
+        </div> 
     </div>
     
     

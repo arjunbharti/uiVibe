@@ -19,25 +19,25 @@
 }
 
 .alert-success{
-    background-color: var(--light-green);
+    background-color: var(--success);
     color: var(--white);
     border: 2px solid;
 }
 
 .alert-info{
-    background-color: var(--skyblue);
+    background-color: var(--info);
     color: var(--white);
     border: 2px solid;
 }
 
 .alert-warning{
-    background-color: var(--yellow);
+    background-color: var(--warning);
     color: var(--white);
     border: 2px solid;
 }
 
 .alert-error{
-    background-color: var(--light-coral);
+    background-color: var(--danger);
     color: var(--white);
     border: 2px solid;
 }

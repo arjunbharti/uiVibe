@@ -1,0 +1,32 @@
+.toast-component{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.toast{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 24rem;
+    border: 1px solid;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.toast-success{
+    background-color: var(--success);
+}
+
+.toast-info{
+    background-color: var(--info);
+}
+
+.toast-warning{
+    background-color: var(--warning);
+}
+
+.toast-error{
+    background-color: var(--danger);
+}

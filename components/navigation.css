@@ -1,0 +1,16 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 1.5rem 2.5rem;
+    max-height: 3.75rem;
+    width: 100%;
+    align-items: center;
+    box-shadow: 0 4px 4px -6px;
+    background-color: var(--primary-light);
+}
+
+.nav-site-heading{
+    font-weight: 500;
+    letter-spacing: 4px;
+}

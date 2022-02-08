@@ -99,3 +99,6 @@
     padding-bottom: 1rem;
 }
 
+.class-highlight{
+    background-color: var(--text-highlight);
+}

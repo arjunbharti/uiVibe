@@ -533,6 +533,122 @@
                     </div>
                 </div>
                 <hr>
+                <!-- text utilities -->
+                <div class="text-utility-container">
+                    <p class="content-sub_heading">Text utilities</p>
+                    <p class="sub-heading-description">Some basic Text Utilities which may come in handy while writing code for your project.</p>
+                    <p class="content-sub_heading-sm">Headings with different sizes, text color and positing</p>
+                    <div class="display-utility">
+                        <div class="text-xl">Heading 1</div>
+                        <div class="text-l text-grey">Heading 2</div>
+                        <div class="text-m text-center">Heading 3</div>
+                        <div class="text-sm text-center">Heading 4</div>
+                    </div>
+                    <div class="code-snippet">
+                        Use "text-xl", "text-l", "text-m" and "text-sm" for different sizes and line height as per your requirement.
+                        <pre id="myInput">
+                            <code class="language-html">&lt;div class=&quot;text-xl&quot;&gt;Heading 1&lt;/div&gt;
+                                
+&lt;div class=&quot;text-l text-grey&quot;&gt;Heading 2&lt;/div&gt;
+                                
+&lt;div class=&quot;text-m text-center&quot;&gt;Heading 3&lt;/div&gt;
+                                
+&lt;div class=&quot;text-sm text-center&quot;&gt;Heading 4&lt;/div&gt;</code>
+                        </pre>
+                    </div>
+                </div>
+                <hr>
+                <!-- list component -->
+                <div class="list-container">
+                    <p class="content-sub_heading">Lists</p>
+                    <p class="sub-heading-description">List component is used to display list items. It rendes a ul element by default.</ul></p>
+                    <p class="content-sub_heading-sm">Spaced List</p>
+                    <div class="display-list">
+                        <ul class="list">
+                            <li class="list-item">This is Item one</li>
+                            <li class="list-item">This is Item two</li>
+                            <li class="list-item">This is Item three</li>
+                        </ul>
+                    </div>
+                    <div class="code-snippet">
+                        For spaced list, use "list" in the ul tag and "list-item" in the li tag in the class name. Use the code snippets mentioned below:
+                        <pre id="myInput">
+                            <code class="language-html">&lt;ul class=&quot;list&quot;&gt;
+        &lt;li class=&quot;list-item&quot;&gt;This is Item one&lt;/li&gt;
+        &lt;li class=&quot;list-item&quot;&gt;This is Item two&lt;/li&gt;
+        &lt;li class=&quot;list-item&quot;&gt;This is Item three&lt;/li&gt;
+&lt;/ul&gt;                 </code>
+                        </pre>
+                    </div>
+                    <p class="content-sub_heading-sm">Stacked List</p>
+                    <div class="display-list">
+                        <ul class="list"> 
+                            <li class="list-stack">
+                                <div class="list-item-stacked">
+                                    <img src="../assets/avatar.png" alt="" class="w-5 img-rounded">
+                                    <div class="list-item-text">
+                                        <p>Fake Ape NFT</p>
+                                        <p class="text-xsm">by Arjun Bharti</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-stack">
+                                <div class="list-item-stacked">
+                                    <img src="../assets/avatar.png" alt="" class="w-5 img-rounded">
+                                    <div class="list-item-text">
+                                        <p>Fake Ape NFT</p>
+                                        <p class="text-xsm">by Arjun Bharti</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-stack">
+                                <div class="list-item-stacked">
+                                    <img src="../assets/avatar.png" alt="" class="w-5 img-rounded">
+                                    <div class="list-item-text">
+                                        <p>Fake Ape NFT</p>
+                                        <p class="text-xsm">by Arjun Bharti</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="code-snippet">
+                        <p class="sub-heading-description">For stacked list, use "list-stack" in the li tag class name.</p>
+                        Use the code snippets mentioned below:
+                        <pre id="myInput">
+                            <code class="language-html">&lt;ul class=&quot;list&quot;&gt; 
+        &lt;li class=&quot;list-stack&quot;&gt;
+                &lt;div class=&quot;list-item-stacked&quot;&gt;
+                        &lt;img src=&quot;../assets/avatar.png&quot; alt=&quot;&quot; class=&quot;w-5 img-rounded&quot;&gt;
+                        &lt;div class=&quot;list-item-text&quot;&gt;
+                                &lt;p&gt;Fake Ape NFT&lt;/p&gt;
+                                &lt;p class=&quot;text-xsm&quot;&gt;by Arjun Bharti&lt;/p&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;list-stack&quot;&gt;
+                &lt;div class=&quot;list-item-stacked&quot;&gt;
+                        &lt;img src=&quot;../assets/avatar.png&quot; alt=&quot;&quot; class=&quot;w-5 img-rounded&quot;&gt;
+                        &lt;div class=&quot;list-item-text&quot;&gt;
+                                &lt;p&gt;Fake Ape NFT&lt;/p&gt;
+                                &lt;p class=&quot;text-xsm&quot;&gt;by Arjun Bharti&lt;/p&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+        &lt;/li&gt;
+        &lt;li class=&quot;list-stack&quot;&gt;
+                &lt;div class=&quot;list-item-stacked&quot;&gt;
+                        &lt;img src=&quot;../assets/avatar.png&quot; alt=&quot;&quot; class=&quot;w-5 img-rounded&quot;&gt;
+                        &lt;div class=&quot;list-item-text&quot;&gt;
+                                &lt;p&gt;Fake Ape NFT&lt;/p&gt;
+                                &lt;p class=&quot;text-xsm&quot;&gt;by Arjun Bharti&lt;/p&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+        &lt;/li&gt;
+&lt;/ul&gt;                 </code>
+                        </pre>
+                    </div>
+                </div>
+                <hr>
             </div>
         </div> 
     </div>

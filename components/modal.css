@@ -1,0 +1,22 @@
+.modal{
+    display: flex;
+    flex-direction: column;
+    max-width: 25rem;
+    background-color: var(--offwhite);
+    border-radius: 4px;
+}
+
+.modal-heading{
+    margin: 1rem;
+    font-weight: 500;
+}
+
+.modal-content{
+    margin: 1rem;
+    line-height: 1.5rem;
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: flex-end;
+}

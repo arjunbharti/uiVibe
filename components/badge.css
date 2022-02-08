@@ -1,0 +1,52 @@
+.display-badge{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 20rem;
+    margin-top: 1rem;
+}
+
+.badge-item{
+    position: relative;
+    width: max-content;
+}
+
+.badge{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 62.5rem;
+    background-color: var(--info);
+}
+
+.badge-red{
+    background-color: var(--red);
+}
+
+.badge-green{
+    background-color: var(--green);
+}
+
+.badge-pink{
+    background-color: var(--pink);
+}
+
+.badge-icon{
+    position: absolute;
+    left: 70%;
+    top: 0;
+    transform: (-50%, -50%);
+    white-space: nowrap;
+    border-radius: 50rem;
+    color: #fff;
+    background-color: var(--primary-color);
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.35rem 0.25rem;
+    text-align: center;
+    line-height: 0.5;
+}

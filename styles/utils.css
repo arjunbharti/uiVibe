@@ -111,4 +111,5 @@
 
 .h-100{
     width: 100rem;
+    --text-highlight: #ddd7d7;
 }

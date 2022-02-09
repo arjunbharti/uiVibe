@@ -19,7 +19,6 @@
     <title>uiVibe | Home</title>
 </head>
 <body>
-
     <nav class="navbar">
         <a class="library-name" href="../index.html">uiVibe</a>
         <div class="github-link">
@@ -29,28 +28,27 @@
             </a>
         </div>
     </nav>
-
     <div class="main-container">
         <div class="sidebar-wrapper">
         <aside class="sidebar">
             <ul class="sidebar-list">
                 <li class="sidebar-list-item">
-                    <a href="">Get Started</a>
+                    <a href="#getting-started">Get Started</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Alert</a>
+                    <a href="#alert">Alert</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Avatar</a>
+                    <a href="#avatar">Avatar</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Badge</a>
+                    <a href="#badge">Badge</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Button</a>
+                    <a href="#button">Button</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Card</a>
+                    <a href="#card">Card</a>
                 </li>
                 <li class="sidebar-list-item">
                     <a href="">Grid</a>
@@ -82,10 +80,11 @@
         <div class="main-content">
             <h3 class="content-heading">Getting Started</h3>
             <br><hr>
-            <div class="installation-guide">
+            <div id="#getting-started" class="installation-guide">
                 <p class="content-sub_heading">Installation Guide</p>
                 <p>Copy the below mentioned stylesheet link in your html file in the head tag to load uiVibe to your project.</p>
                 <div class="code-snippet">
+                    (Will be modified at the end. Please ignore for now)
                     <pre id="myInput">
                         <code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;#&quot; /&gt;
                         </code>
@@ -93,6 +92,7 @@
                 </div>
                 <p>To import the styles in css file, use the code snippet given below</p>
                 <div class="code-snippet">
+                    (Will be modified at the end. Please ignore for now)
                     <pre id="myInput">
                         <code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;#&quot; /&gt;
                         </code>
@@ -107,9 +107,679 @@
                     <p class="reference-item">3. Carbon - for code snippets</p>
             </div>
             <hr>
-        </div>
+
+            <!-- avatar component-->
+            <div class="avatar-container">
+                <p class="content-sub_heading">Avatar</p>
+                <p>The Avatar component can be used to represent a user's display picture, initials, etc</p>
+                <p class="content-sub_heading-sm">Image Avatar</p>
+                <p class="sub-heading-description">Image avatar can be used with three different sizes as per your use-case. The three different sizes are normal "avatar", smaller "avatar-sm" and larger "avatar-lg"</p>
+                <div class="display-avatar">
+                    <img 
+                        class="avatar-sm"
+                        src="../assets/avatar.png" 
+                        alt="avatar">
+                    <img 
+                        class="avatar"
+                        src="../assets/avatar.png" 
+                        alt="avatar">
+                    <img 
+                        class="avatar-lg"
+                        src="../assets/avatar.png" 
+                        alt="avatar">           
+                </div>
+            </div>
+            <div class="code-snippet">
+                Use class name as "avatar" in your "img" tag as mentioned below:
+                <pre id="myInput">
+                    <code class="language-html">&lt;img class=&quot;avatar&quot; src=&quot;img-url-xyz&quot; alt=&quot;avatar&quot; /&gt;
+                        
+&lt;img class=&quot;avatar avatar-sm&quot; src=&quot;img-url-xyz&quot; alt=&quot;avatar&quot; /&gt;
+                        
+&lt;img class=&quot;avatar avatar-lg&quot; src=&quot;img-url-xyz&quot; alt=&quot;avatar&quot; /&gt;
+                    </code>
+                </pre>
+            </div>
+            <p class="content-sub_heading-sm">Letter Avatar</p>
+            <p class="sub-heading-description">Letter avatar can be created using avatar avatar-text with three different sizes in the div tag.</p>
+            <div class="display-avatar">
+                <div class="avatar avatar-text avatar-sm">AB</div>
+                <div class="avatar avatar-text ">AB</div>
+                <div class="avatar avatar-text avatar-lg">AB</div>
+            </div>
+            <div class="code-snippet">
+                Use class name as "avatar-text" in your "div" tag as mentioned below:
+                <pre id="myInput">
+                    <code class="language-html">&lt;div class=&quot;avatar avatar-text avatar-sm&quot;&gt;AB&lt;/div&gt;
+
+&lt;div class=&quot;avatar avatar-text &quot;&gt;AB&lt;/div&gt;
+                        
+&lt;div class=&quot;avatar avatar-text avatar-lg&quot;&gt;AB&lt;/div&gt;
+                    </code>
+                </pre>
+            </div>
+            <hr>
+
+            <!-- badge component -->
+            <div class="badge-container">
+                <p class="content-sub_heading">Badge</p>
+                <p class="sub-heading-description">A badge can be generally used for user verification status, visibility, notifications, etc.</p> 
+                <p class="content-sub_heading-sm">Badge on Avatars</p>
+                <p class="sub-heading-description">You can change the color of these badges by writing "badge-red", "badge-blue", "badge-green" and "badge-pink"</p>
+                <div class="display-badge">
+                    <div class="badge-item">
+                        <img 
+                            class="avatar"
+                            src="../assets/avatar.png" 
+                            alt="avatar"
+                        />
+                        <span class="badge"></span>
+                    </div>
+                    <div class="badge-item">
+                        <img 
+                            class="avatar"
+                            src="../assets/avatar.png" 
+                            alt="avatar"
+                        />
+                        <span class="badge badge-green"></span>
+                    </div>
+                    <div class="badge-item">
+                        <img 
+                            class="avatar"
+                            src="../assets/avatar.png" 
+                            alt="avatar"
+                        />
+                        <span class="badge badge-red"></span>
+                    </div>
+                    <div class="badge-item">
+                        <img 
+                            class="avatar"
+                            src="../assets/avatar.png" 
+                            alt="avatar"
+                        />
+                        <span class="badge badge-pink"></span>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    Use different class names for different badge colors as mentioned below:
+                <pre id="myInput">
+                    <code class="language-html">&lt;div class=&quot;badge-item&quot;&gt;
+        &lt;img class=&quot;avatar&quot; src=&quot;../assets/avatar.png&quot; alt=&quot;avatar&quot; /&gt;
+        &lt;span class=&quot;badge badge-red&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+                    
+&lt;div class=&quot;badge-item&quot;&gt;
+        &lt;img class=&quot;avatar&quot; src=&quot;../assets/avatar.png&quot; alt=&quot;avatar&quot; /&gt;
+        &lt;span class=&quot;badge badge-green&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+                    
+&lt;div class=&quot;badge-item&quot;&gt;
+        &lt;img class=&quot;avatar&quot; src=&quot;../assets/avatar.png&quot; alt=&quot;avatar&quot; /&gt;
+        &lt;span class=&quot;badge badge-blue&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+                    
+&lt;div class=&quot;badge-item&quot;&gt;
+        &lt;img class=&quot;avatar&quot; src=&quot;../assets/avatar.png&quot; alt=&quot;avatar&quot; /&gt;
+        &lt;span class=&quot;badge badge-pink&quot;&gt;&lt;/span&gt;
+&lt;/div&gt;
+                    </code>
+                </pre>
+                </div>
+                <p class="content-sub_heading-sm">Badge on Icons</p>
+                <p class="sub-heading-description">Badges on Icons have so many different use-cases like using icons in messages, notifications, etc. Given below badge can be used in notification icons, calender and message icons.</p>
+                <div class="display-badge">
+                    <div class="badge-item">
+                        <i class="far fa-envelope fa-2x"></i>
+                        <span class="badge-icon">99+</span>
+                    </div>
+                    <div class="badge-item">
+                        <i class="far fa-bell fa-2x"></i>
+                        <span class="badge-icon">3</span>
+                    </div>
+                    <div class="badge-item">
+                        <i class="far fa-calendar fa-2x"></i>
+                        <span class="badge-icon">12</span>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    Use class name as "badge-icon" in your "span" tag as mentioned below:
+                    <pre id="myInput">
+                        <code class="language-html">&lt;div class=&quot;badge-item&quot;&gt;
+                            
+        &lt;i class=&quot;far fa-calendar fa-2x&quot;&gt;&lt;/i&gt;
+                            
+        &lt;span class=&quot;badge-icon&quot;&gt;12&lt;/span&gt;
+                        
+&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+                <hr>
+            </div>
+
+            <!-- alert component -->
+            <div class="alert-container">
+                <p class="content-sub_heading">Alert</p>
+                <p class="sub-heading-description">Alerts are mostly used to communicate a state that affects a system, feature or a page!</p>
+                <p class="sub-heading-description">You can view the four different types of alert messages given below:</p>
+                <div class="display-alert">
+                    <div class="alert-item alert-success">
+                        <i class="alert-icon fa fa-check-circle"></i>
+                        <p>Application saved successfully!</p>
+                    </div>
+                </div>
+                <div class="display-alert">
+                    <div class="alert-item alert-info">
+                        <i class="alert-icon fa fa-info-circle"></i>
+                        <p>This is an info alert</p>
+                    </div>
+                </div>
+                <div class="display-alert">
+                    <div class="alert-item alert-warning">
+                        <i class="alert-icon fa fa-exclamation-triangle"></i>
+                        <p>This is a warning alert</p>
+                    </div>
+                </div>
+                <div class="display-alert">
+                    <div class="alert-item alert-error">
+                        <i class="alert-icon fa fa-exclamation-circle"></i>
+                        <p>This is an error alert</p>
+                    </div>
+                </div>
+                <div class="code-snippet">
+                    Use class name as "alert-item" and pick the another class name for the type of alert you want to use as mentioned below:
+                    <pre id="myInput">
+                        <code class="language-html">&lt;div class=&quot;alert-item alert-success&quot;&gt;
+        &lt;i class=&quot;alert-icon fa fa-check-circle&quot;&gt;&lt;/i&gt;
+        &lt;p&gt;Application saved successfully!&lt;/p&gt;
+&lt;/div&gt;
+                        
+&lt;div class=&quot;alert-item alert-info&quot;&gt;
+        &lt;i class=&quot;alert-icon fa fa-check-circle&quot;&gt;&lt;/i&gt;
+        &lt;p&gt;This is an info message&lt;/p&gt;
+&lt;/div&gt;
+                        
+&lt;div class=&quot;alert-item alert-warning&quot;&gt;
+        &lt;i class=&quot;alert-icon fa fa-check-circle&quot;&gt;&lt;/i&gt;
+        &lt;p&gt;This is a warning message&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert-item alert-error&quot;&gt;
+        &lt;i class=&quot;alert-icon fa fa-check-circle&quot;&gt;&lt;/i&gt;
+        &lt;p&gt;This is an error message&lt;/p&gt;
+&lt;/div&gt;
+                        </code>
+                    </pre>
+                </div>
+            </div>
+            <hr>
+
+            <!-- button component -->
+            <div class="button-container">
+                <p class="content-sub_heading">Button</p>
+                <p class="sub-heading-description">The Button component is used to trigger different actions or events, such as submitting a form, performing delete operation, cancelling an action, etc. </p>
+                <p class="content-sub_heading-sm">Standard Buttons</p>
+                <p class="sub-heading-description">To use primary and secondary buttons, write "btn-primary" and "btn-secondary" respectively in the class name. For curved shape button, use "btn-curved" in the class name.</p>
+                <div class="display-button">
+                    <div>
+                        <button class="btn btn-primary">Primary</button>
+                        <button class="btn btn-primary btn-curved">Primary</button>
+                        <button class="btn btn-primary" disabled>Disabled</button>
+                    </div>
+                    <div>
+                        <button class="btn btn-secondary">Secondary</button>
+                        <button class="btn btn-secondary btn-curved">Secondary</button>
+                        <button class="btn btn-secondary" disabled>Disabled</button>
+                    </div>
+                </div> 
+                <div class="code-snippet">
+                    Use the code snippets mentioned below:
+                    <pre id="myInput">
+                        <code class="language-html">&lt;button class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+                            
+&lt;button class=&quot;btn btn-primary btn-curved&quot;&gt;Primary&lt;/button&gt;
+                            
+&lt;button class=&quot;btn btn-primary&quot; disabled&gt;Disabled&lt;/button&gt;
+                            
+&lt;button class=&quot;btn btn-secondary&quot;&gt;Secondary&lt;/button&gt;
+                            
+&lt;button class=&quot;btn btn-secondary btn-curved&quot;&gt;Secondary&lt;/button&gt;
+                            
+&lt;button class=&quot;btn btn-secondary&quot; disabled&gt;Disabled&lt;/button&gt;
+                        </code>
+                    </pre>
+                </div>
+                <p class="content-sub_heading-sm">Link Buttons</p>
+                <p class="sub-heading-description">To use link buttons, write "btn-link" in the class name.</p>
+                <div class="display-button">
+                    <a href="#" class="btn btn-link">Link Button</a>
+                    <a href="#" class="btn btn-curved btn-link">Link Button</a>
+                </div>
+                <div class="code-snippet">
+                    Use the code snippets mentioned below:
+                    <pre id="myInput">
+                        <code class="language-html">&lt;a href=&quot;#&quot; class=&quot;btn btn-link&quot;&gt;Link Button&lt;/a&gt;
+                            
+&lt;a href=&quot;#&quot; class=&quot;btn btn-curved btn-link&quot;&gt;Link Button&lt;/a&gt;
+                        </code> 
+                    </pre>
+                </div>
+                <p class="content-sub_heading-sm">Icon Buttons</p>
+                <p class="sub-heading-description">To use icon buttons, use "btn-icon" class name in the button tag</p>
+                <div class="display-button">
+                    <button class="btn btn-icon">
+                        <i class="fa fa-bookmark"></i>
+                    </button>
+                    <button class="btn btn-icon">
+                        <i class="fa fa-shopping-cart"></i>
+                    </button>
+                    <button class="btn btn-icon">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                </div>
+                <div class="code-snippet">
+                    Use the code snippets mentioned below:
+                    <pre id="myInput">
+                        <code class="language-html">&lt;button class=&quot;btn btn-icon&quot;&gt;                   
+        &lt;i class=&quot;fa fa-bookmark&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+
+&lt;button class=&quot;btn btn-icon&quot;&gt;                    
+        &lt;i class=&quot;fa fa-shopping-cart&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+        
+&lt;button class=&quot;btn btn-icon&quot;&gt;
+        &lt;i class=&quot;fa fa-trash&quot;&gt;&lt;/i&gt;
+&lt;/button&gt;
+                        </code> 
+                    </pre>
+                </div>
+                <p class="content-sub_heading-sm">Floating Action Buttons</p>
+                <p class="sub-heading-description">To use floating action buttons, use "btn-floating" in the class name of your anchor tag</p>
+                <div class="display-button">
+                    <a href="#" class="btn btn-floating">
+                        <i class="fa fa-phone"></i>
+                    </a>
+                    <a href="#" class="btn btn-floating">
+                        <i class="fa fa-plus"></i>
+                    </a>
+                    <a href="#" class="btn btn-floating">
+                        <i class="fa fa-stop"></i>
+                    </a>
+                </div>
+                <div class="code-snippet">
+                    Use the code snippets mentioned below:
+                    <pre id="myInput">
+                        <code class="language-html">&lt;a href=&quot;#&quot; class=&quot;btn btn-floating&quot;&gt;
+        &lt;i class=&quot;fa fa-phone&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;
+                        
+&lt;a href=&quot;#&quot; class=&quot;btn btn-floating&quot;&gt;
+        &lt;i class=&quot;fa fa-plus&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;
+                        
+&lt;a href=&quot;#&quot; class=&quot;btn btn-floating&quot;&gt;
+        &lt;i class=&quot;fa fa-stop&quot;&gt;&lt;/i&gt;
+&lt;/a&gt;
+                        </code> 
+                    </pre>
+                </div>
+                </div>
+
+                <hr>
+
+                <!-- cards component -->
+                <div class="card-container">
+                    <p class="content-sub_heading">Cards</p>
+                    <p class="sub-heading-description">A card can be used as a container for text, photos, and actions in the context of a single subject. <br> Given Below are 6 types of cards with class name "card" i.e Text only card, Card with text overlay <span class="class-highlight">"card-text-overlay"</span>, Card with shadow <span class="class-highlight">"card-shadow"</span>, Horizontal Card <span class="class-highlight">"card-horizontal"</span>, Card with Badge <span class="class-highlight">"card-badge"</span> and Card with Dismiss <span class="class-highlight">"card-badge"</span></p>
+                    <p class="content-sub_heading-sm">Text only Card</p>
+                    <!-- 1 -->
+                    <div class="display-card">
+                        <div class="card card-text-overlay">
+                            <div class="card-body">
+                                    <div class="card-body-title">
+                                        Fake Punk NFT
+                                    </div>
+                                    <div class="card-body-subtitle">
+                                        by Arjun Bharti
+                                    </div>
+                                <div class="card-description">Yo, yacht ape club crypto nft thugs party is one of the largest NFT OGs thugs group focused on looting people's money. Join us and enjoy the premium thug club! <br/>NFT TO MOON 🚀</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        Use the code snippets mentioned below:
+                        <pre id="myInput">
+                            <code class="language-html">&lt;div class=&quot;card card-text-overlay&quot;&gt;
+        &lt;div class=&quot;card-body&quot;&gt;
+                &lt;div class=&quot;card-body-title&quot;&gt;
+                        Fake Punk NFT
+                &lt;/div&gt;                                                     
+                &lt;div class=&quot;card-body-subtitle&quot;&gt;
+                        by Arjun Bharti
+                &lt;/div&gt;
+                &lt;div class=&quot;card-description&quot;&gt;Yo, yacht ape club crypto nft thugs 
+                        party is one of the largest NFT OGs thugs group 
+                        focused on looting people&apos;s money. 
+                        Join us and enjoy the premium thug club! 
+                        &lt;br/&gt;NFT TO MOON 🚀
+                &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;                </code> 
+                        </pre>
+                    </div>
+                    <p class="content-sub_heading-sm">Cards with text overlay</p>
+                    <!-- 2 -->
+                    <div class="display-card">
+                        <div class="card card-text-overlay">
+                            <div class="card-img-container">
+                                <img src="../assets/card-image.png" alt="" class="card-img">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title-over">
+                                    <div class="body-title-over">
+                                        Fake Punk NFT
+                                    </div>
+                                    <div class="body-subtitle-over">
+                                        by Arjun Bharti
+                                    </div>
+                                </div>
+                                <div class="card-description">Yo yacht ape club crypto nft thugs party. Join us and enjoy the premium thug club!</div>
+                                <div class="card-action-items">
+                                    <div class="card-button">
+                                        <button class="btn-card">BUY</button>
+                                        <button class="btn-card">VIEW MORE</button>
+                                    </div> 
+                                    <div class="card-actions">
+                                        <i class="gg-bookmark bookmark"></i>
+                                        <i class="gg-share share"></i>
+                                        <i class="gg-options options"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        Use the code snippets mentioned below:
+                        <pre id="myInput">
+                            <code class="language-html">&lt;div class=&quot;card card-text-overlay&quot;&gt;
+        &lt;div class=&quot;card-img-container&quot;&gt;
+                &lt;img src=&quot;../assets/card-image.png&quot; alt=&quot;&quot; class=&quot;card-img&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-body&quot;&gt;
+                &lt;div class=&quot;card-title-over&quot;&gt;
+                        &lt;div class=&quot;body-title-over&quot;&gt;
+                                Fake Punk NFT
+                        &lt;/div&gt;
+                        &lt;div class=&quot;body-subtitle-over&quot;&gt;
+                                by Arjun Bharti
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;card-description&quot;&gt;Yo yacht ape club crypto nft thugs party. Join us and enjoy the premium thug club!&lt;/div&gt;
+                        &lt;div class=&quot;card-action-items&quot;&gt;
+                                &lt;div class=&quot;card-button&quot;&gt;
+                                        &lt;button class=&quot;btn-card&quot;&gt;BUY&lt;/button&gt;
+                                        &lt;button class=&quot;btn-card&quot;&gt;VIEW MORE&lt;/button&gt;
+                                &lt;/div&gt; 
+                                &lt;div class=&quot;card-actions&quot;&gt;
+                                        &lt;i class=&quot;gg-bookmark bookmark&quot;&gt;&lt;/i&gt;
+                                        &lt;i class=&quot;gg-share share&quot;&gt;&lt;/i&gt;
+                                        &lt;i class=&quot;gg-options options&quot;&gt;&lt;/i&gt;
+                                &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+&lt;/div&gt;                </code> 
+                        </pre>
+                    </div>
+                    <!-- 3 -->
+                    <p class="content-sub_heading-sm">Card with Shadow</p>
+                    <p class="sub-heading-description"></p>
+                    <div class="display-card">
+                        <div class="card card-text-shadow">
+                            <div class="card-img-container">
+                                <img src="../assets/card-image.png" alt="" class="card-img">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title-over">
+                                    <div class="body-title-over">
+                                        Fake Punk NFT
+                                    </div>
+                                    <div class="body-subtitle-over">
+                                        by Arjun Bharti
+                                    </div>
+                                </div>
+                                <div class="card-description">Yo yacht ape club crypto nft thugs party. Join us and enjoy the premium thug club!</div>
+                                <div class="card-action-items">
+                                    <div class="card-button">
+                                        <button class="btn-card">BUY</button>
+                                        <button class="btn-card">VIEW MORE</button>
+                                    </div> 
+                                    <div class="card-actions">
+                                        <i class="gg-bookmark bookmark"></i>
+                                        <i class="gg-share share"></i>
+                                        <i class="gg-options options"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        Use the code snippets mentioned below: 
+                        <pre id="myInput">
+                            <code class="language-html">&lt;div class=&quot;card card-text-shadow&quot;&gt;
+        &lt;div class=&quot;card-img-container&quot;&gt;
+                &lt;img src=&quot;../assets/card-image.png&quot; alt=&quot;&quot; class=&quot;card-img&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-body&quot;&gt;
+                &lt;div class=&quot;card-title-over&quot;&gt;
+                        &lt;div class=&quot;body-title-over&quot;&gt;
+                                Fake Punk NFT
+                        &lt;/div&gt;
+                        &lt;div class=&quot;body-subtitle-over&quot;&gt;
+                                by Arjun Bharti
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;card-description&quot;&gt;Yo yacht ape club crypto nft thugs party. Join us and enjoy the premium thug club!&lt;/div&gt;
+                        &lt;div class=&quot;card-action-items&quot;&gt;
+                                &lt;div class=&quot;card-button&quot;&gt;
+                                        &lt;button class=&quot;btn-card&quot;&gt;BUY&lt;/button&gt;
+                                        &lt;button class=&quot;btn-card&quot;&gt;VIEW MORE&lt;/button&gt;
+                                &lt;/div&gt; 
+                                &lt;div class=&quot;card-actions&quot;&gt;
+                                        &lt;i class=&quot;gg-bookmark bookmark&quot;&gt;&lt;/i&gt;
+                                        &lt;i class=&quot;gg-share share&quot;&gt;&lt;/i&gt;
+                                        &lt;i class=&quot;gg-options options&quot;&gt;&lt;/i&gt;
+                                &lt;/div&gt;
+                        &lt;/div&gt;
+            &lt;/div&gt;
+&lt;/div&gt;                </code> 
+                        </pre>
+                    </div>
+                    <!-- 4 -->
+                    <p class="content-sub_heading-sm">Horizontal Card</p>
+                    <p class="sub-heading-description"></p>
+                    <div class="display-card">
+                        <div class="card card-horizontal">
+                            <div class="card-horizontal-head">
+                                <img src="../assets/card-image.png" alt="horizontal-img" class="card-horizontal-img">
+                                <div class="card-body">
+                                    <div class="card-body-title">
+                                        Fake Punk NFT
+                                    </div>
+                                    <div class="card-body-subtitle">
+                                        by Arjun Bharti
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-horizontal-action-items">
+                                <div class="card-action-items">
+                                    <button class="btn-card">BUY</button>
+                                    <button class="btn-card">VIEW MORE</button>
+                                    <div class="card-horizontal-actions">
+                                        <i class="fa fa-bookmark bookmark"></i>
+                                        <i class="fa fa-share share"></i>
+                                        <i class="fa fa-ellipsis-v options"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        Use the code snippets mentioned below:
+                        <pre id="myInput">
+                            <code class="language-html">&lt;div class=&quot;card card-horizontal&quot;&gt;
+        &lt;div class=&quot;card-horizontal-head&quot;&gt;
+                &lt;img src=&quot;../assets/card-image.png&quot; alt=&quot;horizontal-img&quot; class=&quot;card-horizontal-img&quot;&gt;
+                &lt;div class=&quot;card-body&quot;&gt;
+                        &lt;div class=&quot;card-body-title&quot;&gt;
+                                Fake Punk NFT
+                        &lt;/div&gt;
+                        &lt;div class=&quot;card-body-subtitle&quot;&gt;
+                                by Arjun Bharti
+                        &lt;/div&gt;
+                &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-horizontal-action-items&quot;&gt;
+                &lt;div class=&quot;card-action-items&quot;&gt;
+                        &lt;button class=&quot;btn-card&quot;&gt;BUY&lt;/button&gt;
+                        &lt;button class=&quot;btn-card&quot;&gt;VIEW MORE&lt;/button&gt;
+                        &lt;div class=&quot;card-horizontal-actions&quot;&gt;
+                                &lt;i class=&quot;fa fa-bookmark bookmark&quot;&gt;&lt;/i&gt;
+                                &lt;i class=&quot;fa fa-share share&quot;&gt;&lt;/i&gt;
+                                &lt;i class=&quot;fa fa-ellipsis-v options&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;                </code>
+                        </pre>
+                    </div>
+                    <!-- 5 -->
+                    <p class="content-sub_heading-sm">Card with Badge</p>
+                    <p class="sub-heading-description"></p>
+                    <div class="display-card">
+                        <div class="card card-text-shadow">
+                            <div class="card-img-container">
+                                <img src="../assets/card-image.png" alt="" class="card-img">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title-over">
+                                    <div class="body-title-over">
+                                        Fake Punk NFT
+                                    </div>
+                                    <div class="body-subtitle-over">
+                                        by Arjun Bharti
+                                    </div>
+                                </div>
+                                <div class="card-badge">
+                                    Trending
+                                </div>
+                                <div class="card-description">Yo yacht ape club crypto nft thugs party. Join us and enjoy the premium thug club!</div>
+                                <div class="card-action-items">
+                                    <div class="card-button">
+                                        <button class="btn-card">BUY</button>
+                                        <button class="btn-card">VIEW MORE</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        Use the code snippets mentioned below:
+                        <pre id="myInput">
+                            <code class="language-html">&lt;div class=&quot;card card-text-shadow&quot;&gt;
+        &lt;div class=&quot;card-img-container&quot;&gt;
+                &lt;img src=&quot;../assets/card-image.png&quot; alt=&quot;&quot; class=&quot;card-img&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-body&quot;&gt;
+                &lt;div class=&quot;card-title-over&quot;&gt;
+                        &lt;div class=&quot;body-title-over&quot;&gt;
+                                Fake Punk NFT
+                        &lt;/div&gt;
+                        &lt;div class=&quot;body-subtitle-over&quot;&gt;
+                                by Arjun Bharti
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;card-badge&quot;&gt;
+                        Trending
+                &lt;/div&gt;
+                &lt;div class=&quot;card-description&quot;&gt;Yo yacht ape club crypto nft thugs party. Join us and enjoy the premium thug club!&lt;/div&gt;
+                        &lt;div class=&quot;card-action-items&quot;&gt;
+                                &lt;div class=&quot;card-button&quot;&gt;
+                                        &lt;button class=&quot;btn-card&quot;&gt;BUY&lt;/button&gt;
+                                        &lt;button class=&quot;btn-card&quot;&gt;VIEW MORE&lt;/button&gt;
+                                &lt;/div&gt; 
+                        &lt;/div&gt;
+                &lt;/div&gt;
+&lt;/div&gt;                </code>
+                        </pre>
+                    </div>
+                    <!-- 6 -->
+                    <p class="content-sub_heading-sm">Card with Dismiss</p>
+                    <p class="sub-heading-descrption"></p>
+                    <div class="display-card">
+                        <div class="card card-text-shadow">
+                            <div class="card-img-container">
+                                <img src="../assets/card-image.png" alt="" class="card-img">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title-over">
+                                    <div class="body-title-over">
+                                        Fake Punk NFT
+                                    </div>
+                                    <div class="body-subtitle-over">
+                                        by Arjun Bharti
+                                    </div>
+                                </div>
+                                <div class="card-badge">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                                <div class="card-description">Yo yacht ape club crypto nft thugs party. Join us and enjoy the premium thug club!</div>
+                                <div class="card-action-items">
+                                    <div class="card-button">
+                                        <button class="btn-card">BUY</button>
+                                        <button class="btn-card">VIEW MORE</button>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-snippet">
+                            Use the code snippets mentioned below:
+                            <pre id="myInput">
+                                <code class="language-html">&lt;div class=&quot;card card-text-shadow&quot;&gt;
+        &lt;div class=&quot;card-img-container&quot;&gt;
+                &lt;img src=&quot;../assets/card-image.png&quot; alt=&quot;&quot; class=&quot;card-img&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-body&quot;&gt;
+                &lt;div class=&quot;card-title-over&quot;&gt;
+                        &lt;div class=&quot;body-title-over&quot;&gt;
+                                Fake Punk NFT
+                        &lt;/div&gt;
+                        &lt;div class=&quot;body-subtitle-over&quot;&gt;
+                                by Arjun Bharti
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;card-badge&quot;&gt;
+                        &lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;card-description&quot;&gt;Yo yacht ape club crypto nft thugs party. Join us and enjoy the premium thug club!&lt;/div&gt;
+                        &lt;div class=&quot;card-action-items&quot;&gt;
+                                &lt;div class=&quot;card-button&quot;&gt;
+                                        &lt;button class=&quot;btn-card&quot;&gt;BUY&lt;/button&gt;
+                                        &lt;button class=&quot;btn-card&quot;&gt;VIEW MORE&lt;/button&gt;
+                                &lt;/div&gt; 
+                        &lt;/div&gt;
+                &lt;/div&gt;
+        &LT;/div&gt;
+&lt;/div&gt;                    </code>
+                            </pre>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div> 
     </div>
-    
+
     
     <!-- script tags for highlight tags -->
     <script

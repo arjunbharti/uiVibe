@@ -4,6 +4,11 @@
 /* component imports */
 @import "./reset.css";
 @import "./utils.css";
+@import "../components/avatar.css";
+@import "../components/badge.css";
+@import "../components/alert.css";
+@import "../components/button.css";
+@import "../components/cards.css";
 
 /* project initials */
 

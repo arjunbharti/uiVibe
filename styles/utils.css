@@ -1,11 +1,21 @@
 :root{
     --primary-color: rgb(46, 80, 231);
+    --primary-light: rgb(160, 157, 243);
+    --secondary-light: rgb(236, 230, 230);
     --white: #ffffff;
 	--offwhite: #f7f7f7;
 	--black: #282828;
 	--gray: #9a9a9a;
     --purple: purple;
+    --info: skyblue;
+    --red: red;
+    --danger: lightcoral;
+    --green: green;
+    --success: lightgreen;
+    --warning: yellow;
+    --pink: pink;
     --primary-button-hover: rgb(21, 50, 180);
     --secondary-button-hover: rgb(236, 233, 233);
     --secondary-hover: rgb(220, 219, 245);
+    --text-highlight: #ddd7d7;
 }

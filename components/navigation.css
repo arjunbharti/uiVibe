@@ -6,7 +6,7 @@
     max-height: 3.75rem;
     width: 100%;
     align-items: center;
-    box-shadow: 0 4px 4px -6px;
+    box-shadow: 0 4px 4px -6px var(--white);
     background-color: var(--primary-light);
 }
 

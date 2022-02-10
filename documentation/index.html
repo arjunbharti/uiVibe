@@ -806,8 +806,6 @@
                         <label for="" class="input-label">Label</label>
                         <input 
                             type="email" 
-                            name=""
-                            id=""
                             class="input"
                             placeholder="Enter your email here..."
                         >
@@ -830,24 +828,18 @@
                         <label for="" class="input-label">Label</label>
                         <input 
                             type="email" 
-                            name=""
-                            id=""
                             class="input input-label-success"
                             placeholder="Enter your email here..."
                         >
                         <label for="" class="input-label">Label</label>
                         <input 
                             type="email" 
-                            name=""
-                            id=""
                             class="input input-label-warning"
                             placeholder="Enter your email here..."
                         >
                         <label for="" class="input-label">Label</label>
                         <input 
                             type="email" 
-                            name=""
-                            id=""
                             class="input input-label-error"
                             placeholder="Enter your email here..."
                         >
@@ -1036,6 +1028,7 @@
                 <hr>
                 <!-- modal container -->
                 <div class="modal-container">
+                <section id="modal-container">
                     <p class="content-sub_heading">Modal</p>
                     <p class="sub-heading-description">A modal is a dialog box/popup window that is displayed on top of the current page</p>
                     <div class="display-modal">
@@ -1050,6 +1043,26 @@
                     </div>
                     <div class="code-snippet">
                         Will add the demo in the end, use class "modal" in the class name of div tag. Use the following code snippets:
+                                <button class="btn btn-primary">Allow</button>
+                                <!-- <button class="btn btn-secondary">Cancel</button> -->
+                            </div>    
+                        </div>
+                    </div>
+                    <p class="content-sub_heading-sm">Demo</p>
+                    
+                    <div id="modal" class="modal-pop">
+                        <div class="modal-content-onpop">
+                        <p class="modal-heading text-m">Modal Heading</p>
+                        <p class="modal-content">This is a modal content. Add information here related to your project or whatever you want to add here.</p>
+                        <div class="modal-footer">  
+                            <button id="closeModal" class="btn btn-primary">Allow</button>
+                        </div>
+                        </div>    
+                    </div>
+                    <button id="modalBtn" class="btn btn-primary">Click me</button>
+                    
+                    <div class="code-snippet">
+                        Use the following code snippets:
                         <pre id="myInput">
                             <code class="language-html">&lt;div class=&quot;modal&quot;&gt;
         &lt;p class=&quot;modal-heading text-m&quot;&gt;Modal Heading&lt;/p&gt;
@@ -1289,6 +1302,8 @@
                         <hr>
                     </div>
                 </div>
+                </section>
+                <hr>
             </div>
         </div> 
     </div>

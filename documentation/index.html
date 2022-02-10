@@ -1027,6 +1027,7 @@
                 </div>
                 <hr>
                 <!-- modal container -->
+                <div class="modal-container">
                 <section id="modal-container">
                     <p class="content-sub_heading">Modal</p>
                     <p class="sub-heading-description">A modal is a dialog box/popup window that is displayed on top of the current page</p>
@@ -1035,6 +1036,13 @@
                             <p class="modal-heading text-m">Modal Heading</p>
                             <p class="modal-content">This is a modal content. Add information here related to your project or whatever you want to add here.</p>
                             <div class="modal-footer">  
+                                <button class="btn btn-primary">Submit</button>
+                                <button class="btn btn-secondary">Cancel</button>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        Will add the demo in the end, use class "modal" in the class name of div tag. Use the following code snippets:
                                 <button class="btn btn-primary">Allow</button>
                                 <!-- <button class="btn btn-secondary">Cancel</button> -->
                             </div>    
@@ -1068,6 +1076,232 @@
 &lt;/div&gt;</code>
                         </pre>
                     </div>
+                </div>
+                <hr>
+                <!-- grid component -->
+                <div class="grid-component">
+                    <p class="content-sub_heading">Grids</p>
+                    <p class="sub-heading-description">A primitive useful for grid layouts. Grid is Box with display: grid and it comes with helpful style shorthand. It renders a div element.</p>
+                    <p class="content-sub_heading-sm">Grid with two items</p>
+                    <div class="display-grid">
+                        <div class="grid grid-col-2">
+                            <div class="grid-item">
+                                one
+                            </div>
+                            <div class="grid-item">
+                                two
+                            </div>
+                            <div class="grid-item">
+                                three
+                            </div>
+                            <div class="grid-item">
+                                four
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        <p class="sub-heading-description">Use "grid grid-col-2" in the class name of your div tag.</p>
+                        Use the code snippets mentioned below:
+                        <pre id="myInput">
+                            <code class="language-html">&lt;div class=&quot;grid grid-col-2&quot;&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;
+                one
+        &lt;/div&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;
+                two
+        &lt;/div&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;
+                three
+        &lt;/div&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;
+                four
+        &lt;/div&gt;
+&lt;/div&gt;                </code>
+                        </pre>
+                    </div>
+                    <p class="content-sub_heading-sm">Grid with three items</p>
+                    <div class="display-grid">
+                        <div class="grid grid-col-3">
+                            <div class="grid-item">
+                                one
+                            </div>
+                            <div class="grid-item">
+                                two
+                            </div>
+                            <div class="grid-item">
+                                three
+                            </div>
+                            <div class="grid-item">
+                                four
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        <p class="sub-heading-description">Use "grid grid-col-3" in the class name of your div tag.</p>
+                        Use the code snippets mentioned below:
+                        <pre id="myInput">
+                            <code class="language-html">&lt;div class=&quot;grid grid-col-3&quot;&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;
+                one
+        &lt;/div&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;
+                two
+        &lt;/div&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;
+                three
+        &lt;/div&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;
+                four
+        &lt;/div&gt;
+&lt;/div&gt;                </code>
+                        </pre>
+                    </div>
+                    <p class="content-sub_heading-sm">Responsive Grid</p>
+                    <div class="display-grid">
+                        <div class="grid grid-responsive">
+                            <div class="grid-item">
+                                one
+                            </div>
+                            <div class="grid-item">
+                                two
+                            </div>
+                            <div class="grid-item">
+                                three
+                            </div>
+                            <div class="grid-item">
+                                four
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        <p class="sub-heading-description">Use "grid responsive" in the class name of your div tag.</p>
+                        Use the code snippets mentioned below:
+                        <pre id="myInput">
+                            <code class="language-html">&lt;div class=&quot;grid grid-responsive&quot;&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;
+                one
+        &lt;/div&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;
+                two
+        &lt;/div&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;
+                three
+        &lt;/div&gt;
+        &lt;div class=&quot;grid-item&quot;&gt;
+                four
+        &lt;/div&gt;
+&lt;/div&gt;                </code>
+                        </pre>
+                    </div>
+                    <hr>
+                    <!-- toast component -->
+                    <p class="content-sub_heading">Toast</p>
+                    <p class="sub-heading-description">The toast component is used to give feedback to users after an action has taken place.</p>
+                    <div class="toast-component">
+                        <div id="toast" class="toast toast-success">
+                            <p>Your response saved successfully!</p>
+                            <a id="toast-success" class="toast-btn">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                        <div id="toast" class="toast toast-info">
+                            <p>This is an information</p>
+                            <a id="toast-info" class="toast-btn">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                        <div id="toast" class="toast toast-warning">
+                            <p>This is a warning</p>
+                            <a id="toast-warning" class="toast-btn">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                        <div id="toast" class="toast toast-error">
+                            <p>Sorry, an error occured!</p>
+                            <a id="toast-error" class="toast-btn">
+                                <i class="fa fa-times"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="sub-heading-description">For success message "toast toast-success", for info "toast toast-info" for warning "toast toast-warning" <br>and error "toast toast-error".</p>
+                    <div class="code-snippet">
+                        Use the code snippets mentioned below:
+                        <pre id="myInput">
+                            <code class="language-html">&lt;div class=&quot;toast toast-success&quot;&gt;
+        &lt;p&gt;Your response saved successfully!&lt;/p&gt;
+        &lt;a class=&quot;toast-btn&quot;&gt;
+                &lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;toast toast-info&quot;&gt;
+        &lt;p&gt;This is an information&lt;/p&gt;
+        &lt;a class=&quot;toast-btn&quot;&gt;
+                &lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;toast toast-warning&quot;&gt;
+        &lt;p&gt;This is a warning&lt;/p&gt;
+        &lt;a class=&quot;toast-btn&quot;&gt;
+                &lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&quot;toast toast-error&quot;&gt;
+        &lt;p&gt;Sorry, an error occured!&lt;/p&gt;
+        &lt;a class=&quot;toast-btn&quot;&gt;
+                &lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;
+        &lt;/a&gt;
+&lt;/div&gt;</code>
+                        </pre>
+                    </div>
+                    <hr>
+                    <!-- rating component -->
+                    <div class="rating-component">
+                        <p class="content-sub_heading">Rating</p>
+                        <p class="sub-heading-description">Ratings provide insight regarding others' opinions and experiences, and can allow the user to submit a rating of their own.</p>
+                        <p class="sub-heading-description"></p>
+                        <div class="rating-display">
+                            <div class="rating">
+                                <i id="rating-1" class="far fa-star fa-4x"></i>
+                            </div>
+                            <div class="rating">
+                                <i id="rating-2" class="far fa-star fa-4x"></i>
+                            </div>
+                            <div class="rating">
+                                <i id="rating-3" class="far fa-star fa-4x"></i>
+                            </div>
+                            <div class="rating">
+                                <i id="rating-4" class="far fa-star fa-4x"></i>
+                            </div>
+                            <div class="rating">
+                                <i id="rating-5" class="far fa-star fa-4x"></i>
+                            </div>
+                        </div>
+                        <p class="sub-heading-description">For ratings, use "rating" as class name in the div tag.</p>
+                        <div class="code-snippet">
+                            Use the code snippets mentioned below:
+                            <pre id="myInput">
+                                <code class="language-html">&lt;div class=&quot;rating-display&quot;&gt;
+        &lt;div class=&quot;rating&quot;&gt;
+                &lt;i class=&quot;far fa-star fa-4x&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;rating&quot;&gt;
+                &lt;i class=&quot;far fa-star fa-4x&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;rating&quot;&gt;
+                &lt;i class=&quot;far fa-star fa-4x&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;rating&quot;&gt;
+                &lt;i class=&quot;far fa-star fa-4x&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;rating&quot;&gt;
+                &lt;i class=&quot;far fa-star fa-4x&quot;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+&lt;/div&gt;                    </code>
+                            </pre>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
                 </section>
                 <hr>
             </div>

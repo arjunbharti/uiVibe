@@ -1,0 +1,11 @@
+.rating-display{
+    display: flex;
+}
+
+.rating{
+    padding: 1rem;
+}
+
+.fa-star:hover{
+    background-color: var(--warning);
+}

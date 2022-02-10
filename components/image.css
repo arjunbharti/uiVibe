@@ -1,0 +1,11 @@
+.display-image{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    max-width: 30rem;
+}
+
+.img-rounded{
+    border-radius: 100%;
+}
+

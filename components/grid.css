@@ -1,0 +1,28 @@
+.grid{
+    display: grid;
+    max-width: 40rem;
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    border-radius: 4px;
+    border: 1px solid;
+    background-color: var(--secondary-light);
+}
+
+.grid-col-2{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-col-3{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-responsive{
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}

@@ -1,0 +1,32 @@
+.text-xl{
+    line-height: 4rem;
+    font-size: 3rem;
+}
+
+.text-l{
+    line-height: 2.5rem;
+    font-size: 2rem;
+}
+
+.text-m{
+    line-height: 2rem;
+    font-size: 1.5rem;
+}
+
+.text-sm{
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.text-xsm{
+    line-height: 1rem;
+    font-size: .80rem;
+}
+
+.text-grey{
+    color: var(--grey);
+}
+
+.text-center{
+    text-align: center;
+}

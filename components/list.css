@@ -1,0 +1,25 @@
+.list{
+    width: fit-content;
+}
+
+.list-item{
+    padding: 1rem;
+    border-bottom: 1px solid;
+    background-color: var(--secondary-light);
+}
+
+.list-stack{
+    padding: 0.8rem;
+    border-bottom: 1px solid;
+    background-color: var(--secondary-light);
+}
+
+.list-item-stacked{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.list-item-text{
+    margin-left: 1rem;
+}

@@ -22,7 +22,7 @@
     display: flex;
     justify-content: space-around;
     height: fit-content;
-    min-width: 6.25rem;
+    min-width: 10rem;
     align-items: center;
 }
 

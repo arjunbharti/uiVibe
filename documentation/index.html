@@ -34,22 +34,22 @@
         <aside class="sidebar">
             <ul class="sidebar-list">
                 <li class="sidebar-list-item">
-                    <a href="">Get Started</a>
+                    <a href="#getting-started">Get Started</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Alert</a>
+                    <a href="#alert">Alert</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Avatar</a>
+                    <a href="#avatar">Avatar</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Badge</a>
+                    <a href="#badge">Badge</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Button</a>
+                    <a href="#button">Button</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Card</a>
+                    <a href="#card">Card</a>
                 </li>
                 <li class="sidebar-list-item">
                     <a href="">Grid</a>
@@ -81,7 +81,7 @@
         <div class="main-content">
             <h3 class="content-heading">Getting Started</h3>
             <br><hr>
-            <div class="installation-guide">
+            <div id="#getting-started" class="installation-guide">
                 <p class="content-sub_heading">Installation Guide</p>
                 <p>Copy the below mentioned stylesheet link in your html file in the head tag to load uiVibe to your project.</p>
                 <div class="code-snippet">
@@ -425,6 +425,357 @@
                         </code> 
                     </pre>
                 </div>
+                </div>
+
+                <hr>
+
+                <!-- cards component -->
+                <div class="card-container">
+                    <p class="content-sub_heading">Cards</p>
+                    <p class="sub-heading-description">A card can be used as a container for text, photos, and actions in the context of a single subject. <br> Given Below are 6 types of cards with class name "card" i.e Text only card, Card with text overlay <span class="class-highlight">"card-text-overlay"</span>, Card with shadow <span class="class-highlight">"card-shadow"</span>, Horizontal Card <span class="class-highlight">"card-horizontal"</span>, Card with Badge <span class="class-highlight">"card-badge"</span> and Card with Dismiss <span class="class-highlight">"card-badge"</span></p>
+                    <p class="content-sub_heading-sm">Text only Card</p>
+                    <!-- 1 -->
+                    <div class="display-card">
+                        <div class="card card-text-overlay">
+                            <div class="card-body">
+                                    <div class="card-body-title">
+                                        Fake Punk NFT
+                                    </div>
+                                    <div class="card-body-subtitle">
+                                        by Arjun Bharti
+                                    </div>
+                                <div class="card-description">Yo, yacht ape club crypto nft thugs party is one of the largest NFT OGs thugs group focused on looting people's money. Join us and enjoy the premium thug club! <br/>NFT TO MOON 🚀</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        Use the code snippets mentioned below:
+                        <pre id="myInput">
+                            <code class="language-html">&lt;div class=&quot;card card-text-overlay&quot;&gt;
+        &lt;div class=&quot;card-body&quot;&gt;
+                &lt;div class=&quot;card-body-title&quot;&gt;
+                        Fake Punk NFT
+                &lt;/div&gt;                                                     
+                &lt;div class=&quot;card-body-subtitle&quot;&gt;
+                        by Arjun Bharti
+                &lt;/div&gt;
+                &lt;div class=&quot;card-description&quot;&gt;Yo, yacht ape club crypto nft thugs 
+                        party is one of the largest NFT OGs thugs group 
+                        focused on looting people&apos;s money. 
+                        Join us and enjoy the premium thug club! 
+                        &lt;br/&gt;NFT TO MOON 🚀
+                &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;                </code> 
+                        </pre>
+                    </div>
+                    <p class="content-sub_heading-sm">Cards with text overlay</p>
+                    <!-- 2 -->
+                    <div class="display-card">
+                        <div class="card card-text-overlay">
+                            <div class="card-img-container">
+                                <img src="../assets/card-image.png" alt="" class="card-img">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title-over">
+                                    <div class="body-title-over">
+                                        Fake Punk NFT
+                                    </div>
+                                    <div class="body-subtitle-over">
+                                        by Arjun Bharti
+                                    </div>
+                                </div>
+                                <div class="card-description">Yo yacht ape club crypto nft thugs party. Join us and enjoy the premium thug club!</div>
+                                <div class="card-action-items">
+                                    <div class="card-button">
+                                        <button class="btn-card">BUY</button>
+                                        <button class="btn-card">VIEW MORE</button>
+                                    </div> 
+                                    <div class="card-actions">
+                                        <i class="gg-bookmark bookmark"></i>
+                                        <i class="gg-share share"></i>
+                                        <i class="gg-options options"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        Use the code snippets mentioned below:
+                        <pre id="myInput">
+                            <code class="language-html">&lt;div class=&quot;card card-text-overlay&quot;&gt;
+        &lt;div class=&quot;card-img-container&quot;&gt;
+                &lt;img src=&quot;../assets/card-image.png&quot; alt=&quot;&quot; class=&quot;card-img&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-body&quot;&gt;
+                &lt;div class=&quot;card-title-over&quot;&gt;
+                        &lt;div class=&quot;body-title-over&quot;&gt;
+                                Fake Punk NFT
+                        &lt;/div&gt;
+                        &lt;div class=&quot;body-subtitle-over&quot;&gt;
+                                by Arjun Bharti
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;card-description&quot;&gt;Yo yacht ape club crypto nft thugs party. Join us and enjoy the premium thug club!&lt;/div&gt;
+                        &lt;div class=&quot;card-action-items&quot;&gt;
+                                &lt;div class=&quot;card-button&quot;&gt;
+                                        &lt;button class=&quot;btn-card&quot;&gt;BUY&lt;/button&gt;
+                                        &lt;button class=&quot;btn-card&quot;&gt;VIEW MORE&lt;/button&gt;
+                                &lt;/div&gt; 
+                                &lt;div class=&quot;card-actions&quot;&gt;
+                                        &lt;i class=&quot;gg-bookmark bookmark&quot;&gt;&lt;/i&gt;
+                                        &lt;i class=&quot;gg-share share&quot;&gt;&lt;/i&gt;
+                                        &lt;i class=&quot;gg-options options&quot;&gt;&lt;/i&gt;
+                                &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+&lt;/div&gt;                </code> 
+                        </pre>
+                    </div>
+                    <!-- 3 -->
+                    <p class="content-sub_heading-sm">Card with Shadow</p>
+                    <p class="sub-heading-description"></p>
+                    <div class="display-card">
+                        <div class="card card-text-shadow">
+                            <div class="card-img-container">
+                                <img src="../assets/card-image.png" alt="" class="card-img">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title-over">
+                                    <div class="body-title-over">
+                                        Fake Punk NFT
+                                    </div>
+                                    <div class="body-subtitle-over">
+                                        by Arjun Bharti
+                                    </div>
+                                </div>
+                                <div class="card-description">Yo yacht ape club crypto nft thugs party. Join us and enjoy the premium thug club!</div>
+                                <div class="card-action-items">
+                                    <div class="card-button">
+                                        <button class="btn-card">BUY</button>
+                                        <button class="btn-card">VIEW MORE</button>
+                                    </div> 
+                                    <div class="card-actions">
+                                        <i class="gg-bookmark bookmark"></i>
+                                        <i class="gg-share share"></i>
+                                        <i class="gg-options options"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        Use the code snippets mentioned below: 
+                        <pre id="myInput">
+                            <code class="language-html">&lt;div class=&quot;card card-text-shadow&quot;&gt;
+        &lt;div class=&quot;card-img-container&quot;&gt;
+                &lt;img src=&quot;../assets/card-image.png&quot; alt=&quot;&quot; class=&quot;card-img&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-body&quot;&gt;
+                &lt;div class=&quot;card-title-over&quot;&gt;
+                        &lt;div class=&quot;body-title-over&quot;&gt;
+                                Fake Punk NFT
+                        &lt;/div&gt;
+                        &lt;div class=&quot;body-subtitle-over&quot;&gt;
+                                by Arjun Bharti
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;card-description&quot;&gt;Yo yacht ape club crypto nft thugs party. Join us and enjoy the premium thug club!&lt;/div&gt;
+                        &lt;div class=&quot;card-action-items&quot;&gt;
+                                &lt;div class=&quot;card-button&quot;&gt;
+                                        &lt;button class=&quot;btn-card&quot;&gt;BUY&lt;/button&gt;
+                                        &lt;button class=&quot;btn-card&quot;&gt;VIEW MORE&lt;/button&gt;
+                                &lt;/div&gt; 
+                                &lt;div class=&quot;card-actions&quot;&gt;
+                                        &lt;i class=&quot;gg-bookmark bookmark&quot;&gt;&lt;/i&gt;
+                                        &lt;i class=&quot;gg-share share&quot;&gt;&lt;/i&gt;
+                                        &lt;i class=&quot;gg-options options&quot;&gt;&lt;/i&gt;
+                                &lt;/div&gt;
+                        &lt;/div&gt;
+            &lt;/div&gt;
+&lt;/div&gt;                </code> 
+                        </pre>
+                    </div>
+                    <!-- 4 -->
+                    <p class="content-sub_heading-sm">Horizontal Card</p>
+                    <p class="sub-heading-description"></p>
+                    <div class="display-card">
+                        <div class="card card-horizontal">
+                            <div class="card-horizontal-head">
+                                <img src="../assets/card-image.png" alt="horizontal-img" class="card-horizontal-img">
+                                <div class="card-body">
+                                    <div class="card-body-title">
+                                        Fake Punk NFT
+                                    </div>
+                                    <div class="card-body-subtitle">
+                                        by Arjun Bharti
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-horizontal-action-items">
+                                <div class="card-action-items">
+                                    <button class="btn-card">BUY</button>
+                                    <button class="btn-card">VIEW MORE</button>
+                                    <div class="card-horizontal-actions">
+                                        <i class="fa fa-bookmark bookmark"></i>
+                                        <i class="fa fa-share share"></i>
+                                        <i class="fa fa-ellipsis-v options"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        Use the code snippets mentioned below:
+                        <pre id="myInput">
+                            <code class="language-html">&lt;div class=&quot;card card-horizontal&quot;&gt;
+        &lt;div class=&quot;card-horizontal-head&quot;&gt;
+                &lt;img src=&quot;../assets/card-image.png&quot; alt=&quot;horizontal-img&quot; class=&quot;card-horizontal-img&quot;&gt;
+                &lt;div class=&quot;card-body&quot;&gt;
+                        &lt;div class=&quot;card-body-title&quot;&gt;
+                                Fake Punk NFT
+                        &lt;/div&gt;
+                        &lt;div class=&quot;card-body-subtitle&quot;&gt;
+                                by Arjun Bharti
+                        &lt;/div&gt;
+                &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-horizontal-action-items&quot;&gt;
+                &lt;div class=&quot;card-action-items&quot;&gt;
+                        &lt;button class=&quot;btn-card&quot;&gt;BUY&lt;/button&gt;
+                        &lt;button class=&quot;btn-card&quot;&gt;VIEW MORE&lt;/button&gt;
+                        &lt;div class=&quot;card-horizontal-actions&quot;&gt;
+                                &lt;i class=&quot;fa fa-bookmark bookmark&quot;&gt;&lt;/i&gt;
+                                &lt;i class=&quot;fa fa-share share&quot;&gt;&lt;/i&gt;
+                                &lt;i class=&quot;fa fa-ellipsis-v options&quot;&gt;&lt;/i&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/div&gt;                </code>
+                        </pre>
+                    </div>
+                    <!-- 5 -->
+                    <p class="content-sub_heading-sm">Card with Badge</p>
+                    <p class="sub-heading-description"></p>
+                    <div class="display-card">
+                        <div class="card card-text-shadow">
+                            <div class="card-img-container">
+                                <img src="../assets/card-image.png" alt="" class="card-img">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title-over">
+                                    <div class="body-title-over">
+                                        Fake Punk NFT
+                                    </div>
+                                    <div class="body-subtitle-over">
+                                        by Arjun Bharti
+                                    </div>
+                                </div>
+                                <div class="card-badge">
+                                    Trending
+                                </div>
+                                <div class="card-description">Yo yacht ape club crypto nft thugs party. Join us and enjoy the premium thug club!</div>
+                                <div class="card-action-items">
+                                    <div class="card-button">
+                                        <button class="btn-card">BUY</button>
+                                        <button class="btn-card">VIEW MORE</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="code-snippet">
+                        Use the code snippets mentioned below:
+                        <pre id="myInput">
+                            <code class="language-html">&lt;div class=&quot;card card-text-shadow&quot;&gt;
+        &lt;div class=&quot;card-img-container&quot;&gt;
+                &lt;img src=&quot;../assets/card-image.png&quot; alt=&quot;&quot; class=&quot;card-img&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-body&quot;&gt;
+                &lt;div class=&quot;card-title-over&quot;&gt;
+                        &lt;div class=&quot;body-title-over&quot;&gt;
+                                Fake Punk NFT
+                        &lt;/div&gt;
+                        &lt;div class=&quot;body-subtitle-over&quot;&gt;
+                                by Arjun Bharti
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;card-badge&quot;&gt;
+                        Trending
+                &lt;/div&gt;
+                &lt;div class=&quot;card-description&quot;&gt;Yo yacht ape club crypto nft thugs party. Join us and enjoy the premium thug club!&lt;/div&gt;
+                        &lt;div class=&quot;card-action-items&quot;&gt;
+                                &lt;div class=&quot;card-button&quot;&gt;
+                                        &lt;button class=&quot;btn-card&quot;&gt;BUY&lt;/button&gt;
+                                        &lt;button class=&quot;btn-card&quot;&gt;VIEW MORE&lt;/button&gt;
+                                &lt;/div&gt; 
+                        &lt;/div&gt;
+                &lt;/div&gt;
+&lt;/div&gt;                </code>
+                        </pre>
+                    </div>
+                    <!-- 6 -->
+                    <p class="content-sub_heading-sm">Card with Dismiss</p>
+                    <p class="sub-heading-descrption"></p>
+                    <div class="display-card">
+                        <div class="card card-text-shadow">
+                            <div class="card-img-container">
+                                <img src="../assets/card-image.png" alt="" class="card-img">
+                            </div>
+                            <div class="card-body">
+                                <div class="card-title-over">
+                                    <div class="body-title-over">
+                                        Fake Punk NFT
+                                    </div>
+                                    <div class="body-subtitle-over">
+                                        by Arjun Bharti
+                                    </div>
+                                </div>
+                                <div class="card-badge">
+                                    <i class="fa fa-times"></i>
+                                </div>
+                                <div class="card-description">Yo yacht ape club crypto nft thugs party. Join us and enjoy the premium thug club!</div>
+                                <div class="card-action-items">
+                                    <div class="card-button">
+                                        <button class="btn-card">BUY</button>
+                                        <button class="btn-card">VIEW MORE</button>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-snippet">
+                            Use the code snippets mentioned below:
+                            <pre id="myInput">
+                                <code class="language-html">&lt;div class=&quot;card card-text-shadow&quot;&gt;
+        &lt;div class=&quot;card-img-container&quot;&gt;
+                &lt;img src=&quot;../assets/card-image.png&quot; alt=&quot;&quot; class=&quot;card-img&quot;&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;card-body&quot;&gt;
+                &lt;div class=&quot;card-title-over&quot;&gt;
+                        &lt;div class=&quot;body-title-over&quot;&gt;
+                                Fake Punk NFT
+                        &lt;/div&gt;
+                        &lt;div class=&quot;body-subtitle-over&quot;&gt;
+                                by Arjun Bharti
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;card-badge&quot;&gt;
+                        &lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;card-description&quot;&gt;Yo yacht ape club crypto nft thugs party. Join us and enjoy the premium thug club!&lt;/div&gt;
+                        &lt;div class=&quot;card-action-items&quot;&gt;
+                                &lt;div class=&quot;card-button&quot;&gt;
+                                        &lt;button class=&quot;btn-card&quot;&gt;BUY&lt;/button&gt;
+                                        &lt;button class=&quot;btn-card&quot;&gt;VIEW MORE&lt;/button&gt;
+                                &lt;/div&gt; 
+                        &lt;/div&gt;
+                &lt;/div&gt;
+        &LT;/div&gt;
+&lt;/div&gt;                    </code>
+                            </pre>
+                        </div>
+                    </div>
+                </div>
                 <hr>
                 <!-- image component -->
                 <div class="image-container">
@@ -455,8 +806,6 @@
                         <label for="" class="input-label">Label</label>
                         <input 
                             type="email" 
-                            name=""
-                            id=""
                             class="input"
                             placeholder="Enter your email here..."
                         >
@@ -479,24 +828,18 @@
                         <label for="" class="input-label">Label</label>
                         <input 
                             type="email" 
-                            name=""
-                            id=""
                             class="input input-label-success"
                             placeholder="Enter your email here..."
                         >
                         <label for="" class="input-label">Label</label>
                         <input 
                             type="email" 
-                            name=""
-                            id=""
                             class="input input-label-warning"
                             placeholder="Enter your email here..."
                         >
                         <label for="" class="input-label">Label</label>
                         <input 
                             type="email" 
-                            name=""
-                            id=""
                             class="input input-label-error"
                             placeholder="Enter your email here..."
                         >
@@ -686,7 +1029,7 @@
             </div>
         </div> 
     </div>
-    
+
     
     <!-- script tags for highlight tags -->
     <script

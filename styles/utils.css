@@ -17,7 +17,6 @@
     --primary-button-hover: rgb(21, 50, 180);
     --secondary-button-hover: rgb(236, 233, 233);
     --secondary-hover: rgb(220, 219, 245);
-
 }
 
 /* width and height */
@@ -111,5 +110,4 @@
 
 .h-100{
     width: 100rem;
-    --text-highlight: #ddd7d7;
 }

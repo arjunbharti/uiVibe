@@ -7,6 +7,10 @@
     width: 100%;
     align-items: center;
     box-shadow: 0 4px 4px -6px;
+    position: fixed;
+    top: 0;
+    background-color: var(--secondary-hover);
+    z-index: 9999;
 }
 
 .library-name{
@@ -60,10 +64,13 @@
 .main-container{
     display: grid;
     grid-template-columns: 16rem auto;
+    scroll-behavior: smooth;
+    overflow: auto;
 }
 
 .main-content{
     padding: 2rem;
+    margin-top: 3rem;
 }
 
 .content-heading{

@@ -109,3 +109,8 @@
 .class-highlight{
     background-color: var(--text-highlight);
 }
+
+.text-highlight{
+    background-color: var(--secondary-light);
+    text-decoration: underline;
+}

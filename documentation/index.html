@@ -52,28 +52,28 @@
                     <a href="#card">Card</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Grid</a>
+                    <a href="#grid">Grid</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Image</a>
+                    <a href="#image">Image</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Input</a>
+                    <a href="#input">Input</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Lists</a>
+                    <a href="#list">Lists</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Modal</a>
+                    <a href="#modal-redirect">Modal</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Navigation</a>
+                    <a href="#navigation">Navigation</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Toast</a>
+                    <a href="#toast">Toast</a>
                 </li>
                 <li class="sidebar-list-item">
-                    <a href="">Typography</a>
+                    <a href="#typo">Typography</a>
                 </li>
             </ul>
         </aside>
@@ -81,20 +81,16 @@
         <div class="main-content">
             <h3 class="content-heading">Getting Started</h3>
             <br><hr>
-            <div id="#getting-started" class="installation-guide">
+            <div id="getting-started" class="installation-guide">
                 <p class="content-sub_heading">Installation Guide</p>
                 <p>Copy the below mentioned stylesheet link in your html file in the head tag to load uiVibe to your project.</p>
-                <!-- <div class="code-snippet"> -->
                     <pre id="myInput">
                         <code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://uivibe.netlify.app&quot; /&gt;</code>
                     </pre>
-                <!-- </div> -->
                 <p>To import the styles in css file, use the code snippet given below</p>
-                <!-- <div class="code-snippet"> -->
                     <pre id="myInput">
                         <code class="language-html">@import url(https://uivibe.netlify.app/styles/main.css);</code>
                     </pre>
-                <!-- </div> -->
             </div>
             <hr>
             <div class="references">
@@ -106,11 +102,11 @@
             <hr>
 
             <!-- avatar component-->
-            <div class="avatar-container">
+            <div id="avatar" class="avatar-container">
                 <p class="content-sub_heading">Avatar</p>
                 <p>The Avatar component can be used to represent a user's display picture, initials, etc</p>
                 <p class="content-sub_heading-sm">Image Avatar</p>
-                <p class="sub-heading-description">Image avatar can be used with three different sizes as per your use-case. The three different sizes are normal "avatar", smaller "avatar-sm" and larger "avatar-lg"</p>
+                <p class="sub-heading-description">Image avatar can be used with three different sizes as per your use-case. The three different sizes are normal <span class="text-highlight">"avatar"</span> , smaller <span class="text-highlight">"avatar-sm"</span> and larger <span class="text-highlight">"avatar-lg"</span></p>
                 <div class="display-avatar">
                     <img 
                         class="avatar-sm"
@@ -127,7 +123,7 @@
                 </div>
             </div>
             <div class="code-snippet">
-                Use class name as "avatar" in your "img" tag as mentioned below:
+                Use class name as <span class="text-highlight">"avatar"</span> in your "img" tag as mentioned below:
                 <pre id="myInput">
                     <code class="language-html">&lt;img class=&quot;avatar&quot; src=&quot;img-url-xyz&quot; alt=&quot;avatar&quot; /&gt;
                         
@@ -145,7 +141,7 @@
                 <div class="avatar avatar-text avatar-lg">AB</div>
             </div>
             <div class="code-snippet">
-                Use class name as "avatar-text" in your "div" tag as mentioned below:
+                Use class name as <span class="text-highlight">"avatar-text"</span> in your "div" tag as mentioned below:
                 <pre id="myInput">
                     <code class="language-html">&lt;div class=&quot;avatar avatar-text avatar-sm&quot;&gt;AB&lt;/div&gt;
 
@@ -158,11 +154,11 @@
             <hr>
 
             <!-- badge component -->
-            <div class="badge-container">
+            <div id="badge" class="badge-container">
                 <p class="content-sub_heading">Badge</p>
                 <p class="sub-heading-description">A badge can be generally used for user verification status, visibility, notifications, etc.</p> 
                 <p class="content-sub_heading-sm">Badge on Avatars</p>
-                <p class="sub-heading-description">You can change the color of these badges by writing "badge-red", "badge-blue", "badge-green" and "badge-pink"</p>
+                <p class="sub-heading-description">You can change the color of these badges by writing <span class="text-highlight">"badge-red"</span>, <span class="text-highlight">"badge-blue"</span>, <span class="text-highlight">"badge-green"</span> and <span class="text-highlight">"badge-pink"</span></p>
                 <div class="display-badge">
                     <div class="badge-item">
                         <img 
@@ -239,7 +235,7 @@
                     </div>
                 </div>
                 <div class="code-snippet">
-                    Use class name as "badge-icon" in your "span" tag as mentioned below:
+                    Use class name as <span class="text-highlight">"badge-icon"</span> in your "span" tag as mentioned below:
                     <pre id="myInput">
                         <code class="language-html">&lt;div class=&quot;badge-item&quot;&gt;
                             
@@ -255,7 +251,7 @@
             </div>
 
             <!-- alert component -->
-            <div class="alert-container">
+            <div id="alert" class="alert-container">
                 <p class="content-sub_heading">Alert</p>
                 <p class="sub-heading-description">Alerts are mostly used to communicate a state that affects a system, feature or a page!</p>
                 <p class="sub-heading-description">You can view the four different types of alert messages given below:</p>
@@ -284,7 +280,7 @@
                     </div>
                 </div>
                 <div class="code-snippet">
-                    Use class name as "alert-item" and pick the another class name for the type of alert you want to use as mentioned below:
+                    Use class name as <span class="text-highlight">"alert-item"</span> and pick the another class name for the type of alert you want to use as mentioned below:
                     <pre id="myInput">
                         <code class="language-html">&lt;div class=&quot;alert-item alert-success&quot;&gt;
         &lt;i class=&quot;alert-icon fa fa-check-circle&quot;&gt;&lt;/i&gt;
@@ -312,11 +308,11 @@
             <hr>
 
             <!-- button component -->
-            <div class="button-container">
+            <div id="button" class="button-container">
                 <p class="content-sub_heading">Button</p>
                 <p class="sub-heading-description">The Button component is used to trigger different actions or events, such as submitting a form, performing delete operation, cancelling an action, etc. </p>
                 <p class="content-sub_heading-sm">Standard Buttons</p>
-                <p class="sub-heading-description">To use primary and secondary buttons, write "btn-primary" and "btn-secondary" respectively in the class name. For curved shape button, use "btn-curved" in the class name.</p>
+                <p class="sub-heading-description">To use primary and secondary buttons, write <span class="text-highlight">"btn-primary"</span> and <span class="text-highlight">"btn-secondary"</span> respectively in the class name. For curved shape button, use <span class="text-highlight">"btn-curved"</span> in the class name.</p>
                 <div class="display-button">
                     <div>
                         <button class="btn btn-primary">Primary</button>
@@ -347,7 +343,7 @@
                     </pre>
                 </div>
                 <p class="content-sub_heading-sm">Link Buttons</p>
-                <p class="sub-heading-description">To use link buttons, write "btn-link" in the class name.</p>
+                <p class="sub-heading-description">To use link buttons, write <span class="text-highlight">"btn-link"</span> in the class name.</p>
                 <div class="display-button">
                     <a href="#" class="btn btn-link">Link Button</a>
                     <a href="#" class="btn btn-curved btn-link">Link Button</a>
@@ -362,7 +358,7 @@
                     </pre>
                 </div>
                 <p class="content-sub_heading-sm">Icon Buttons</p>
-                <p class="sub-heading-description">To use icon buttons, use "btn-icon" class name in the button tag</p>
+                <p class="sub-heading-description">To use icon buttons, use <span class="text-highlight">"btn-icon"</span> class name in the button tag</p>
                 <div class="display-button">
                     <button class="btn btn-icon">
                         <i class="fa fa-bookmark"></i>
@@ -392,7 +388,7 @@
                     </pre>
                 </div>
                 <p class="content-sub_heading-sm">Floating Action Buttons</p>
-                <p class="sub-heading-description">To use floating action buttons, use "btn-floating" in the class name of your anchor tag</p>
+                <p class="sub-heading-description">To use floating action buttons, use <span class="text-highlight">"btn-floating"</span> in the class name of your anchor tag</p>
                 <div class="display-button">
                     <a href="#" class="btn btn-floating">
                         <i class="fa fa-phone"></i>
@@ -426,9 +422,9 @@
                 <hr>
 
                 <!-- cards component -->
-                <div class="card-container">
+                <div id="card" class="card-container">
                     <p class="content-sub_heading">Cards</p>
-                    <p class="sub-heading-description">A card can be used as a container for text, photos, and actions in the context of a single subject. <br> Given Below are 6 types of cards with class name "card" i.e Text only card, Card with text overlay <span class="class-highlight">"card-text-overlay"</span>, Card with shadow <span class="class-highlight">"card-shadow"</span>, Horizontal Card <span class="class-highlight">"card-horizontal"</span>, Card with Badge <span class="class-highlight">"card-badge"</span> and Card with Dismiss <span class="class-highlight">"card-badge"</span></p>
+                    <p class="sub-heading-description">A card can be used as a container for text, photos, and actions in the context of a single subject. <br> Given Below are 6 types of cards with class name <span class="text-highlight">"card"</span> i.e Text only card, Card with text overlay <span class="text-highlight">"card-text-overlay"</span>, Card with shadow <span class="text-highlight">"card-shadow"</span>, Horizontal Card <span class="text-highlight">"card-horizontal"</span>, Card with Badge <span class="text-highlight">"card-badge"</span> and Card with Dismiss <span class="text-highlight">"card-badge"</span></p>
                     <p class="content-sub_heading-sm">Text only Card</p>
                     <!-- 1 -->
                     <div class="display-card">
@@ -774,11 +770,11 @@
                 </div>
                 <hr>
                 <!-- image component -->
-                <div class="image-container">
+                <div id="image" class="image-container">
                     <p class="content-sub_heading">Images</p>
                     <p class="sub-heading-description">The Image component is used to display images</p>
                     <p class="content-sub_heading-sm">Responsive Image</p>
-                    <p class="sub-heading-description">Use w-size and h-size in the class name and give the required width. For rounded image use "img-rounded" in the class name</p>
+                    <p class="sub-heading-description">Use w-size and h-size in the class name and give the required width. For rounded image use <span class="text-highlight">"img-rounded"</span> in the class name</p>
                     <div class="display-image">
                         <img src="../assets/avatar.png" alt="" class="w-10 h-10">
                         <img src="../assets/avatar.png" alt="" class="img-rounded w-10 h-10">
@@ -794,7 +790,7 @@
                 </div>
                 <hr>
                 <!-- input container -->
-                <div class="input-container">
+                <div id="input" class="input-container">
                     <div class="content-sub_heading">Input</div>
                     <p class="sub-heading-description">The input component is a component that is used to get user input in a text field.</p>
                     <p class="content-sub_heading-sm">Text box</p>
@@ -841,7 +837,7 @@
                         >
                     </div>
                     <div class="code-snippet">
-                        For success input, use "input-label-success", for warning "input-label-warning", for error "input-label-error" <br> Use the code snippets mentioned below:
+                        For success input, use <span class="text-highlight">"input-label-success"</span>, for warning <span class="text-highlight">"input-label-warning"</span>, for error <span class="text-highlight">"input-label-error"</span> <br><br> Use the code snippets mentioned below:
                         <pre id="myInput">
                             <code class="language-html">&lt;label for=&quot;&quot; class=&quot;input-label&quot;&gt;Label&lt;/label&gt;
 &lt;input 
@@ -874,7 +870,7 @@
                 </div>
                 <hr>
                 <!-- text utilities -->
-                <div class="text-utility-container">
+                <div id="typo" class="text-utility-container">
                     <p class="content-sub_heading">Text utilities</p>
                     <p class="sub-heading-description">Some basic Text Utilities which may come in handy while writing code for your project.</p>
                     <p class="content-sub_heading-sm">Headings with different sizes, text color and positing</p>
@@ -885,7 +881,7 @@
                         <div class="text-sm text-center">Heading 4</div>
                     </div>
                     <div class="code-snippet">
-                        Use "text-xl", "text-l", "text-m" and "text-sm" for different sizes and line height as per your requirement.
+                        Use <span class="text-highlight">"text-xl"</span>, <span class="text-highlight">"text-l"</span>, <span class="text-highlight">"text-m"</span> and <span class="text-highlight">"text-sm"</span> for different sizes and line height as per your requirement.
                         <pre id="myInput">
                             <code class="language-html">&lt;div class=&quot;text-xl&quot;&gt;Heading 1&lt;/div&gt;
                                 
@@ -899,7 +895,7 @@
                 </div>
                 <hr>
                 <!-- list component -->
-                <div class="list-container">
+                <div id="list" class="list-container">
                     <p class="content-sub_heading">Lists</p>
                     <p class="sub-heading-description">List component is used to display list items. It rendes a ul element by default.</ul></p>
                     <p class="content-sub_heading-sm">Spaced List</p>
@@ -911,7 +907,7 @@
                         </ul>
                     </div>
                     <div class="code-snippet">
-                        For spaced list, use "list" in the ul tag and "list-item" in the li tag in the class name. Use the code snippets mentioned below:
+                        For spaced list, use <span class="text-highlight">"list"</span> in the ul tag and <span class="text-highlight">"list-item"</span> in the li tag in the class name. Use the code snippets mentioned below:
                         <pre id="myInput">
                             <code class="language-html">&lt;ul class=&quot;list&quot;&gt;
         &lt;li class=&quot;list-item&quot;&gt;This is Item one&lt;/li&gt;
@@ -953,7 +949,7 @@
                         </ul>
                     </div>
                     <div class="code-snippet">
-                        <p class="sub-heading-description">For stacked list, use "list-stack" in the li tag class name.</p>
+                        <p class="sub-heading-description">For stacked list, use <span class="text-highlight">"list-stack"</span> in the li tag class name.</p>
                         Use the code snippets mentioned below:
                         <pre id="myInput">
                             <code class="language-html">&lt;ul class=&quot;list&quot;&gt; 
@@ -990,7 +986,7 @@
                 </div>
                 <hr>
                 <!-- navigation component -->
-                <div class="navigation-container">
+                <div id="navigation" class="navigation-container">
                     <p class="content-sub_heading">Navigation</p>
                     <p class="sub-heading-description">A navigation bar helps readers in selecting topics, links or sub-topics of their interest.</p>
                     <div class="display-navbar">
@@ -1023,7 +1019,7 @@
                 </div>
                 <hr>
                 <!-- modal container -->
-                <div class="modal-container">
+                <div id="modal-redirect" class="modal-container">
                     <p class="content-sub_heading">Modal</p>
                     <p class="sub-heading-description">A modal is a dialog box/popup window that is displayed on top of the current page</p>
                     <div class="display-modal">
@@ -1067,7 +1063,7 @@
                 </div>
                 <hr>
                 <!-- grid component -->
-                <div class="grid-component">
+                <div id="grid" class="grid-component">
                     <p class="content-sub_heading">Grids</p>
                     <p class="sub-heading-description">A primitive useful for grid layouts. Grid is Box with display: grid and it comes with helpful style shorthand. It renders a div element.</p>
                     <p class="content-sub_heading-sm">Grid with two items</p>
@@ -1088,7 +1084,7 @@
                         </div>
                     </div>
                     <div class="code-snippet">
-                        <p class="sub-heading-description">Use "grid grid-col-2" in the class name of your div tag.</p>
+                        <p class="sub-heading-description">Use <span class="text-highlight">"grid grid-col-2"</span> in the class name of your div tag.</p>
                         Use the code snippets mentioned below:
                         <pre id="myInput">
                             <code class="language-html">&lt;div class=&quot;grid grid-col-2&quot;&gt;
@@ -1125,7 +1121,7 @@
                         </div>
                     </div>
                     <div class="code-snippet">
-                        <p class="sub-heading-description">Use "grid grid-col-3" in the class name of your div tag.</p>
+                        <p class="sub-heading-description">Use <span class="text-highlight">"grid grid-col-3"</span> in the class name of your div tag.</p>
                         Use the code snippets mentioned below:
                         <pre id="myInput">
                             <code class="language-html">&lt;div class=&quot;grid grid-col-3&quot;&gt;
@@ -1162,7 +1158,7 @@
                         </div>
                     </div>
                     <div class="code-snippet">
-                        <p class="sub-heading-description">Use "grid responsive" in the class name of your div tag.</p>
+                        <p class="sub-heading-description">Use <span class="text-highlight">"grid-responsive"</span> in the class name of your div tag.</p>
                         Use the code snippets mentioned below:
                         <pre id="myInput">
                             <code class="language-html">&lt;div class=&quot;grid grid-responsive&quot;&gt;
@@ -1184,7 +1180,7 @@
                 </div>
                 <hr>
 
-                <div class="toast-component">
+                <div id="toast" class="toast-component">
                     <!-- toast component -->
                     <p class="content-sub_heading">Toast</p>
                     <p class="sub-heading-description">The toast component is used to give feedback to users after an action has taken place.</p>
@@ -1212,7 +1208,7 @@
                                 <i class="fa fa-times"></i>
                             </a>
                         </div>
-                    <p class="sub-heading-description">For success message "toast toast-success", for info "toast toast-info" for warning "toast toast-warning" <br>and error "toast toast-error".</p>
+                    <p class="sub-heading-description">For success message <span class="text-highlight">"toast toast-success"</span>, for info <span class="text-highlight">"toast toast-info"</span> for warning <span class="text-highlight">"toast toast-warning"</span> <br>and error <span class="text-highlight">"toast toast-error"</span>.</p>
                     <div class="code-snippet">
                         Use the code snippets mentioned below:
                         <pre id="myInput">
@@ -1246,7 +1242,7 @@
                 <hr>
     
                     <!-- rating component -->
-                    <div class="rating-component">
+                    <div id="rating" class="rating-component">
                         <p class="content-sub_heading">Rating</p>
                         <p class="sub-heading-description">Ratings provide insight regarding others' opinions and experiences, and can allow the user to submit a rating of their own.</p>
                         <p class="sub-heading-description"></p>
@@ -1267,7 +1263,7 @@
                                 <i id="rating-5" class="far fa-star fa-4x"></i>
                             </div>
                         </div>
-                        <p class="sub-heading-description">For ratings, use "rating" as class name in the div tag.</p>
+                        <p class="sub-heading-description">For ratings, use <span class="text-highlight">"rating"</span> as class name in the div tag.</p>
                         <div class="code-snippet">
                             Use the code snippets mentioned below:
                             <pre id="myInput">

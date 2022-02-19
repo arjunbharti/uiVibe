@@ -25,7 +25,19 @@ To run this project locally, write on your CLI:
 Open your favorite code editor and run locally!
 ## Features
 
-- Will be updated soon
+- Alert
+- Avatar
+- Badge
+- Button
+- Card
+- Grid
+- Image
+- Input
+- List
+- Modal
+- Navigation
+- Toast
+- Typography
 
 
 

@@ -1,0 +1,14 @@
+.slider-display, .slider-msg {
+    margin-top: 1rem;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+
+}
+
+.slider-label {
+    margin-bottom: 1rem;
+}

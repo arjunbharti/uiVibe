@@ -70,6 +70,9 @@
                     <a href="#navigation">Navigation</a>
                 </li>
                 <li class="sidebar-list-item">
+                    <a href="#slider">Slider</a>
+                </li>
+                <li class="sidebar-list-item">
                     <a href="#toast">Toast</a>
                 </li>
                 <li class="sidebar-list-item">
@@ -1288,6 +1291,31 @@
                         </div>
                     </div>
                     <hr>
+                    <!-- slider component -->
+                    <div id="slider" class="slider-component">
+                        <p class="content-sub_heading">Slider</p>
+                        <p class="sub-heading-description">The Slider is used to allow users to make selections from a range of values.</p>
+                        <p class="sub-heading-description">In this slider, the initial value is 0 and last value 10. You can modify it as per your usecase.</p>
+                        <div class="slider-display">
+                            <div class="slider">
+                                <label for="slider" class="slider-label">Increase or decrease volume</label>
+                                <input class="slider-input" type="range" min="0" max="10" step="1" value="2"/>
+                            </div>
+                            <p class="slider-msg"></p>
+                        </div>
+                        <p class="sub-heading-description">For slider, use class name <span class="text-highlight">"slider-input"</span> in the input tag and <span class="text-highlight">"slider-msg"</span> in the p tag to display output text</p>
+                        <div class="code-snippet">
+                            Use the code snippets mentioned below:
+                            <pre id="myInput">
+                                <code class="language-html">&lt;div class=&quot;slider&quot;&gt;
+        &lt;label for=&quot;slider&quot; class=&quot;slider-label&quot;&gt;Increase or decrease volume&lt;/label&gt;
+        &lt;input class=&quot;slider-input&quot; type=&quot;range&quot; min=&quot;0&quot; max=&quot;10&quot; step=&quot;1&quot; value=&quot;2&quot;/&gt;
+&lt;/div&gt;
+&lt;p class=&quot;slider-msg&quot;&gt;&lt;/p&gt;</code>
+                            </pre>
+                        </div>
+                    </div>
+                    <hr>
                 </div>
             </div>
         </div> 
@@ -1303,5 +1331,6 @@
     </script>
     <script src="../scripts/sidebar.js"></script>
     <script src="../scripts/main.js"></script>
+    <script src="../scripts/slider.js"></script>
 </body>
 </html>
